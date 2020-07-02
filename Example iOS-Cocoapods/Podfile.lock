@@ -1,0 +1,23 @@
+PODS:
+  - TPPDF (2.2.0)
+  - TPPDFAsync (0.0.1):
+    - TPPDF
+
+DEPENDENCIES:
+  - TPPDFAsync (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TPPDF
+
+EXTERNAL SOURCES:
+  TPPDFAsync:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPPDF: 70897ce5bd22926b9b624d43401bf18ddaf4d83c
+  TPPDFAsync: a2c884f91bfe415f00ab3554a2c3640605db84cc
+
+PODFILE CHECKSUM: 539da709f57ed8eff69e513cd820aa23c3e930ed
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,3137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"TPPDFAsync::TPPDFAsyncPackageTests::ProductTarget" /* TPPDFAsyncPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_643 /* Build configuration list for PBXAggregateTarget "TPPDFAsyncPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_646 /* PBXTargetDependency */,
+			);
+			name = TPPDFAsyncPackageTests;
+			productName = TPPDFAsyncPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_322 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* AdapterProtocols.swift */; };
+		OBJ_323 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* AssertionDispatcher.swift */; };
+		OBJ_324 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* AssertionRecorder.swift */; };
+		OBJ_325 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* NMBExpectation.swift */; };
+		OBJ_326 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* NMBObjCMatcher.swift */; };
+		OBJ_327 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* NimbleEnvironment.swift */; };
+		OBJ_328 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* NimbleXCTestHandler.swift */; };
+		OBJ_329 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* ExceptionCapture.swift */; };
+		OBJ_330 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* DSL+Wait.swift */; };
+		OBJ_331 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* DSL.swift */; };
+		OBJ_332 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Expectation.swift */; };
+		OBJ_333 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* ExpectationMessage.swift */; };
+		OBJ_334 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Expression.swift */; };
+		OBJ_335 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* FailureMessage.swift */; };
+		OBJ_336 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* AllPass.swift */; };
+		OBJ_337 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Async.swift */; };
+		OBJ_338 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* BeAKindOf.swift */; };
+		OBJ_339 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* BeAnInstanceOf.swift */; };
+		OBJ_340 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* BeCloseTo.swift */; };
+		OBJ_341 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* BeEmpty.swift */; };
+		OBJ_342 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* BeGreaterThan.swift */; };
+		OBJ_343 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* BeGreaterThanOrEqualTo.swift */; };
+		OBJ_344 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* BeIdenticalTo.swift */; };
+		OBJ_345 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* BeLessThan.swift */; };
+		OBJ_346 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* BeLessThanOrEqual.swift */; };
+		OBJ_347 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* BeLogical.swift */; };
+		OBJ_348 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* BeNil.swift */; };
+		OBJ_349 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* BeVoid.swift */; };
+		OBJ_350 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* BeginWith.swift */; };
+		OBJ_351 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* Contain.swift */; };
+		OBJ_352 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* ContainElementSatisfying.swift */; };
+		OBJ_353 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* ElementsEqual.swift */; };
+		OBJ_354 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* EndWith.swift */; };
+		OBJ_355 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* Equal.swift */; };
+		OBJ_356 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* HaveCount.swift */; };
+		OBJ_357 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* Match.swift */; };
+		OBJ_358 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* MatchError.swift */; };
+		OBJ_359 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* MatcherFunc.swift */; };
+		OBJ_360 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* MatcherProtocols.swift */; };
+		OBJ_361 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* PostNotification.swift */; };
+		OBJ_362 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* Predicate.swift */; };
+		OBJ_363 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* RaisesException.swift */; };
+		OBJ_364 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* SatisfyAllOf.swift */; };
+		OBJ_365 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* SatisfyAnyOf.swift */; };
+		OBJ_366 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* ThrowAssertion.swift */; };
+		OBJ_367 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* ThrowError.swift */; };
+		OBJ_368 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* ToSucceed.swift */; };
+		OBJ_369 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* Await.swift */; };
+		OBJ_370 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* Errors.swift */; };
+		OBJ_371 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* Functional.swift */; };
+		OBJ_372 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* SourceLocation.swift */; };
+		OBJ_373 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Stringers.swift */; };
+		OBJ_375 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
+		OBJ_376 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_377 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_378 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_391 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* CwlCatchException.swift */; };
+		OBJ_393 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_399 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* CwlCatchException.m */; };
+		OBJ_405 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* CwlMachBadInstructionHandler.m */; };
+		OBJ_406 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* mach_excServer.c */; };
+		OBJ_412 /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* CwlBadInstructionException.swift */; };
+		OBJ_413 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* CwlCatchBadInstruction.swift */; };
+		OBJ_414 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* CwlDarwinDefinitions.swift */; };
+		OBJ_416 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_417 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_418 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_427 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Package.swift */; };
+		OBJ_433 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Behavior.swift */; };
+		OBJ_434 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Callsite.swift */; };
+		OBJ_435 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Configuration.swift */; };
+		OBJ_436 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* QuickConfiguration.swift */; };
+		OBJ_437 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* DSL.swift */; };
+		OBJ_438 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* World+DSL.swift */; };
+		OBJ_439 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ErrorUtility.swift */; };
+		OBJ_440 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Example.swift */; };
+		OBJ_441 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ExampleGroup.swift */; };
+		OBJ_442 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ExampleMetadata.swift */; };
+		OBJ_443 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Filter.swift */; };
+		OBJ_444 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Closures.swift */; };
+		OBJ_445 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ExampleHooks.swift */; };
+		OBJ_446 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* HooksPhase.swift */; };
+		OBJ_447 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* SuiteHooks.swift */; };
+		OBJ_448 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* NSBundle+CurrentTestBundle.swift */; };
+		OBJ_449 /* QuickMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* QuickMain.swift */; };
+		OBJ_450 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* QuickSelectedTestSuiteBuilder.swift */; };
+		OBJ_451 /* QuickSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* QuickSpec.swift */; };
+		OBJ_452 /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* QuickTestObservation.swift */; };
+		OBJ_453 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* QuickTestSuite.swift */; };
+		OBJ_454 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* String+C99ExtendedIdentifier.swift */; };
+		OBJ_455 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* URL+FileName.swift */; };
+		OBJ_456 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* World.swift */; };
+		OBJ_458 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
+		OBJ_465 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* QuickSpecBase.m */; };
+		OBJ_472 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Package.swift */; };
+		OBJ_478 /* PDFExternalDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* PDFExternalDocument.swift */; };
+		OBJ_479 /* PDFBezierPath+Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* PDFBezierPath+Copying.swift */; };
+		OBJ_480 /* PDFBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* PDFBezierPath.swift */; };
+		OBJ_481 /* PDFBezierPathVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* PDFBezierPathVertex.swift */; };
+		OBJ_482 /* PDFDynamicGeometryShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* PDFDynamicGeometryShape.swift */; };
+		OBJ_483 /* PDFLineStyle+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* PDFLineStyle+Equatable.swift */; };
+		OBJ_484 /* PDFLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* PDFLineStyle.swift */; };
+		OBJ_485 /* PDFLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* PDFLineType.swift */; };
+		OBJ_486 /* PDFGroup+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* PDFGroup+Objects.swift */; };
+		OBJ_487 /* PDFGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* PDFGroup.swift */; };
+		OBJ_488 /* PDFGroupContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* PDFGroupContainer.swift */; };
+		OBJ_489 /* PDFMasterGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* PDFMasterGroup.swift */; };
+		OBJ_490 /* PDFImage+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* PDFImage+Equatable.swift */; };
+		OBJ_491 /* PDFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* PDFImage.swift */; };
+		OBJ_492 /* PDFImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* PDFImageOptions.swift */; };
+		OBJ_493 /* PDFImageSizeFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* PDFImageSizeFit.swift */; };
+		OBJ_494 /* PDFContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* PDFContainer.swift */; };
+		OBJ_495 /* PDFPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* PDFPageLayout.swift */; };
+		OBJ_496 /* PDFList+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* PDFList+Equatable.swift */; };
+		OBJ_497 /* PDFList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* PDFList.swift */; };
+		OBJ_498 /* PDFListItem+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* PDFListItem+Equatable.swift */; };
+		OBJ_499 /* PDFListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* PDFListItem.swift */; };
+		OBJ_500 /* PDFListItemSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* PDFListItemSymbol.swift */; };
+		OBJ_501 /* PDFInfo+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* PDFInfo+Equatable.swift */; };
+		OBJ_502 /* PDFInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* PDFInfo.swift */; };
+		OBJ_503 /* PDFDocument+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* PDFDocument+Objects.swift */; };
+		OBJ_504 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* PDFDocument.swift */; };
+		OBJ_505 /* PDFGenerator+Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* PDFGenerator+Generation.swift */; };
+		OBJ_506 /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* PDFGenerator.swift */; };
+		OBJ_507 /* PDFGeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* PDFGeneratorProtocol.swift */; };
+		OBJ_508 /* PDFMultiDocumentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* PDFMultiDocumentGenerator.swift */; };
+		OBJ_509 /* PDFPageFormat+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* PDFPageFormat+Layout.swift */; };
+		OBJ_510 /* PDFPageFormat+SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* PDFPageFormat+SizeConstants.swift */; };
+		OBJ_511 /* PDFPageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* PDFPageFormat.swift */; };
+		OBJ_512 /* PDFSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* PDFSection.swift */; };
+		OBJ_513 /* PDFSectionColumn+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* PDFSectionColumn+Objects.swift */; };
+		OBJ_514 /* PDFSectionColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* PDFSectionColumn.swift */; };
+		OBJ_515 /* PDFTableOfContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* PDFTableOfContent.swift */; };
+		OBJ_516 /* NSAttributedString+PDFTableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* NSAttributedString+PDFTableContent.swift */; };
+		OBJ_517 /* Number+PDFTableContentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* Number+PDFTableContentable.swift */; };
+		OBJ_518 /* PDFTableContent+ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* PDFTableContent+ContentType.swift */; };
+		OBJ_519 /* PDFTableContent+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* PDFTableContent+Equatable.swift */; };
+		OBJ_520 /* PDFTableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* PDFTableContent.swift */; };
+		OBJ_521 /* PDFTableContentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* PDFTableContentable.swift */; };
+		OBJ_522 /* String+PDFTableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* String+PDFTableContent.swift */; };
+		OBJ_523 /* UIImage+PDFTableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* UIImage+PDFTableContent.swift */; };
+		OBJ_524 /* PDFTable+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* PDFTable+Equatable.swift */; };
+		OBJ_525 /* PDFTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* PDFTable.swift */; };
+		OBJ_526 /* PDFTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* PDFTableCell.swift */; };
+		OBJ_527 /* PDFTableCellAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* PDFTableCellAlignment.swift */; };
+		OBJ_528 /* PDFTableCellPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* PDFTableCellPosition.swift */; };
+		OBJ_529 /* PDFTable+CellSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* PDFTable+CellSubscripts.swift */; };
+		OBJ_530 /* PDFTable+ColumnSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* PDFTable+ColumnSubscripts.swift */; };
+		OBJ_531 /* PDFTable+RowSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* PDFTable+RowSubscripts.swift */; };
+		OBJ_532 /* PDFTable+SectionSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* PDFTable+SectionSubscripts.swift */; };
+		OBJ_533 /* PDFTableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* PDFTableColumn.swift */; };
+		OBJ_534 /* PDFTableColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* PDFTableColumns.swift */; };
+		OBJ_535 /* PDFTableMergeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* PDFTableMergeable.swift */; };
+		OBJ_536 /* PDFTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* PDFTableRow.swift */; };
+		OBJ_537 /* PDFTableRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* PDFTableRows.swift */; };
+		OBJ_538 /* PDFTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* PDFTableSection.swift */; };
+		OBJ_539 /* PDFTableCell+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* PDFTableCell+Equatable.swift */; };
+		OBJ_540 /* PDFTableCellBorders+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* PDFTableCellBorders+Equatable.swift */; };
+		OBJ_541 /* PDFTableCellBorders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* PDFTableCellBorders.swift */; };
+		OBJ_542 /* PDFTableCellPosition+Equatable-Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* PDFTableCellPosition+Equatable-Hashable.swift */; };
+		OBJ_543 /* PDFTableCellStyle+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* PDFTableCellStyle+Equatable.swift */; };
+		OBJ_544 /* PDFTableCellStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* PDFTableCellStyle.swift */; };
+		OBJ_545 /* PDFTableStyle+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* PDFTableStyle+Defaults.swift */; };
+		OBJ_546 /* PDFTableStyle+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* PDFTableStyle+Equatable.swift */; };
+		OBJ_547 /* PDFTableStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* PDFTableStyle.swift */; };
+		OBJ_548 /* PDFAttributedText+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_217 /* PDFAttributedText+Equatable.swift */; };
+		OBJ_549 /* PDFAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* PDFAttributedText.swift */; };
+		OBJ_550 /* PDFSimpleText+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* PDFSimpleText+Equatable.swift */; };
+		OBJ_551 /* PDFSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* PDFSimpleText.swift */; };
+		OBJ_552 /* PDFText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* PDFText.swift */; };
+		OBJ_553 /* PDFTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* PDFTextStyle.swift */; };
+		OBJ_554 /* CrossPlattformGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* CrossPlattformGraphics.swift */; };
+		OBJ_555 /* PDFCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* PDFCopy.swift */; };
+		OBJ_556 /* PDFDocumentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* PDFDocumentObject.swift */; };
+		OBJ_557 /* PDFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* PDFError.swift */; };
+		OBJ_558 /* PDFRenderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* PDFRenderObject.swift */; };
+		OBJ_559 /* PDFExternalDocumentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* PDFExternalDocumentObject.swift */; };
+		OBJ_560 /* PDFExternalPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* PDFExternalPageObject.swift */; };
+		OBJ_561 /* PDFContextGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* PDFContextGraphics.swift */; };
+		OBJ_562 /* PDFGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* PDFGraphics.swift */; };
+		OBJ_563 /* PDFLineObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* PDFLineObject.swift */; };
+		OBJ_564 /* PDFLineSeparatorObject+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* PDFLineSeparatorObject+Equatable.swift */; };
+		OBJ_565 /* PDFLineSeparatorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* PDFLineSeparatorObject.swift */; };
+		OBJ_566 /* PDFRectangleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_239 /* PDFRectangleObject.swift */; };
+		OBJ_567 /* UIColor+CloseToEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_240 /* UIColor+CloseToEqual.swift */; };
+		OBJ_568 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_241 /* UIColor+Hex.swift */; };
+		OBJ_569 /* UIImage+Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_242 /* UIImage+Pixel.swift */; };
+		OBJ_570 /* PDFGroupObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_244 /* PDFGroupObject.swift */; };
+		OBJ_571 /* PDFImageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_246 /* PDFImageObject.swift */; };
+		OBJ_572 /* PDFImageRowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_247 /* PDFImageRowObject.swift */; };
+		OBJ_573 /* PDFColumnLayoutState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_249 /* PDFColumnLayoutState.swift */; };
+		OBJ_574 /* PDFIndentationObject+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_250 /* PDFIndentationObject+Equatable.swift */; };
+		OBJ_575 /* PDFIndentationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* PDFIndentationObject.swift */; };
+		OBJ_576 /* PDFLayout+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* PDFLayout+Equatable.swift */; };
+		OBJ_577 /* PDFLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* PDFLayout.swift */; };
+		OBJ_578 /* PDFLayoutHeights+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_254 /* PDFLayoutHeights+Equatable.swift */; };
+		OBJ_579 /* PDFLayoutHeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_255 /* PDFLayoutHeights.swift */; };
+		OBJ_580 /* PDFLayoutIndentations+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_256 /* PDFLayoutIndentations+Equatable.swift */; };
+		OBJ_581 /* PDFLayoutIndentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_257 /* PDFLayoutIndentations.swift */; };
+		OBJ_582 /* PDFMarginObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_258 /* PDFMarginObject.swift */; };
+		OBJ_583 /* PDFOffsetObject+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* PDFOffsetObject+Equatable.swift */; };
+		OBJ_584 /* PDFOffsetObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_260 /* PDFOffsetObject.swift */; };
+		OBJ_585 /* PDFPageBreakObject+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_261 /* PDFPageBreakObject+Equatable.swift */; };
+		OBJ_586 /* PDFPageBreakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_262 /* PDFPageBreakObject.swift */; };
+		OBJ_587 /* PDFPageLayout+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_263 /* PDFPageLayout+Equatable.swift */; };
+		OBJ_588 /* PDFSectionColumnContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_264 /* PDFSectionColumnContainer.swift */; };
+		OBJ_589 /* PDFSpaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_265 /* PDFSpaceObject.swift */; };
+		OBJ_590 /* PDFListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_267 /* PDFListObject.swift */; };
+		OBJ_591 /* CGPoint+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_269 /* CGPoint+Math.swift */; };
+		OBJ_592 /* CGPoint+Null.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_270 /* CGPoint+Null.swift */; };
+		OBJ_593 /* PDFGenerator+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_271 /* PDFGenerator+Debug.swift */; };
+		OBJ_594 /* PDFGenerator+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_272 /* PDFGenerator+Layout.swift */; };
+		OBJ_595 /* Int+RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* Int+RomanNumerals.swift */; };
+		OBJ_596 /* PDFPagination+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_275 /* PDFPagination+Equatable.swift */; };
+		OBJ_597 /* PDFPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_276 /* PDFPagination.swift */; };
+		OBJ_598 /* PDFPaginationClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_277 /* PDFPaginationClosure.swift */; };
+		OBJ_599 /* PDFPaginationStyle+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_278 /* PDFPaginationStyle+Equatable.swift */; };
+		OBJ_600 /* PDFPaginationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_279 /* PDFPaginationStyle.swift */; };
+		OBJ_601 /* PDFColumnWrapSectionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_281 /* PDFColumnWrapSectionObject.swift */; };
+		OBJ_602 /* PDFSectionColumnObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_282 /* PDFSectionColumnObject.swift */; };
+		OBJ_603 /* PDFSectionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_283 /* PDFSectionObject.swift */; };
+		OBJ_604 /* PDFTableOfContentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_285 /* PDFTableOfContentObject.swift */; };
+		OBJ_605 /* PDFTableMergeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_287 /* PDFTableMergeUtil.swift */; };
+		OBJ_606 /* PDFTableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_288 /* PDFTableNode.swift */; };
+		OBJ_607 /* PDFTableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_289 /* PDFTableObject.swift */; };
+		OBJ_608 /* PDFTableValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_290 /* PDFTableValidator.swift */; };
+		OBJ_609 /* PDFAttributedTextObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* PDFAttributedTextObject.swift */; };
+		OBJ_610 /* PDFFontObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_293 /* PDFFontObject.swift */; };
+		OBJ_611 /* PDFTextColorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* PDFTextColorObject.swift */; };
+		OBJ_612 /* PDFAttributableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_297 /* PDFAttributableObject.swift */; };
+		OBJ_613 /* PDFObjectAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_298 /* PDFObjectAttribute.swift */; };
+		OBJ_614 /* CustomStringConvertible+AutoDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_299 /* CustomStringConvertible+AutoDescribing.swift */; };
+		OBJ_615 /* FileManager+TemporaryFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_300 /* FileManager+TemporaryFiles.swift */; };
+		OBJ_616 /* PDFCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_301 /* PDFCalculations.swift */; };
+		OBJ_617 /* PDFLocatedRenderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_302 /* PDFLocatedRenderObject.swift */; };
+		OBJ_618 /* PDFSlicedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_303 /* PDFSlicedObject.swift */; };
+		OBJ_619 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_304 /* Stack.swift */; };
+		OBJ_620 /* WeakRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_305 /* WeakRef.swift */; };
+		OBJ_627 /* PDFAsyncGenerator+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* PDFAsyncGenerator+Combine.swift */; };
+		OBJ_628 /* PDFAsyncGenerator+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PDFAsyncGenerator+Dispatch.swift */; };
+		OBJ_629 /* PDFAsyncGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* PDFAsyncGenerator.swift */; };
+		OBJ_630 /* PDFAsyncMultiDocumentGenerator+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PDFAsyncMultiDocumentGenerator+Combine.swift */; };
+		OBJ_631 /* PDFAsyncMultiDocumentGenerator+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PDFAsyncMultiDocumentGenerator+Dispatch.swift */; };
+		OBJ_632 /* PDFAsyncMultiDocumentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* PDFAsyncMultiDocumentGenerator.swift */; };
+		OBJ_634 /* TPPDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "TPPDF::TPPDF::Product" /* TPPDF.framework */; };
+		OBJ_641 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_652 /* TPPDFAsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* TPPDFAsyncTest.swift */; };
+		OBJ_654 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::Nimble::Product" /* Nimble.framework */; };
+		OBJ_655 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
+		OBJ_656 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_657 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_658 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_659 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::Quick::Product" /* Quick.framework */; };
+		OBJ_660 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
+		OBJ_661 /* TPPDFAsync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "TPPDFAsync::TPPDFAsync::Product" /* TPPDFAsync.framework */; };
+		OBJ_662 /* TPPDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "TPPDF::TPPDF::Product" /* TPPDF.framework */; };
+		OBJ_677 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4BDCCB024AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TPPDF::TPPDF";
+			remoteInfo = TPPDF;
+		};
+		D4BDCCB124AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::Nimble";
+			remoteInfo = Nimble;
+		};
+		D4BDCCB224AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
+			remoteInfo = NimbleCwlPreconditionTesting;
+		};
+		D4BDCCB324AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
+			remoteInfo = NimbleCwlCatchException;
+		};
+		D4BDCCB424AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		D4BDCCB524AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		D4BDCCB624AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
+			remoteInfo = NimbleCwlMachBadInstructionHandler;
+		};
+		D4BDCCB724AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
+			remoteInfo = NimbleCwlCatchException;
+		};
+		D4BDCCB824AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		D4BDCCB924AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
+			remoteInfo = NimbleCwlMachBadInstructionHandler;
+		};
+		D4BDCCBA24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
+			remoteInfo = NimbleCwlPreconditionTesting;
+		};
+		D4BDCCBB24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
+			remoteInfo = NimbleCwlCatchException;
+		};
+		D4BDCCBC24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		D4BDCCBD24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
+			remoteInfo = NimbleCwlMachBadInstructionHandler;
+		};
+		D4BDCCBE24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quick::Quick";
+			remoteInfo = Quick;
+		};
+		D4BDCCBF24AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quick::QuickObjCRuntime";
+			remoteInfo = QuickObjCRuntime;
+		};
+		D4BDCCC024AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quick::QuickObjCRuntime";
+			remoteInfo = QuickObjCRuntime;
+		};
+		D4BDCCC124AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TPPDFAsync::TPPDFAsync";
+			remoteInfo = TPPDFAsync;
+		};
+		D4BDCCC224AE283D000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TPPDF::TPPDF";
+			remoteInfo = TPPDF;
+		};
+		D4BDCCC324AE283E000C6FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TPPDFAsync::TPPDFAsyncTests";
+			remoteInfo = TPPDFAsyncTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* PDFAsyncGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAsyncGenerator.swift; sourceTree = "<group>"; };
+		OBJ_100 /* SatisfyAllOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatisfyAllOf.swift; sourceTree = "<group>"; };
+		OBJ_101 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatisfyAnyOf.swift; sourceTree = "<group>"; };
+		OBJ_102 /* ThrowAssertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowAssertion.swift; sourceTree = "<group>"; };
+		OBJ_103 /* ThrowError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowError.swift; sourceTree = "<group>"; };
+		OBJ_104 /* ToSucceed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToSucceed.swift; sourceTree = "<group>"; };
+		OBJ_106 /* Await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Await.swift; sourceTree = "<group>"; };
+		OBJ_107 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_108 /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		OBJ_109 /* SourceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLocation.swift; sourceTree = "<group>"; };
+		OBJ_11 /* PDFAsyncMultiDocumentGenerator+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFAsyncMultiDocumentGenerator+Combine.swift"; sourceTree = "<group>"; };
+		OBJ_110 /* Stringers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stringers.swift; sourceTree = "<group>"; };
+		OBJ_112 /* CwlCatchException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CwlCatchException.swift; sourceTree = "<group>"; };
+		OBJ_114 /* CwlCatchException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CwlCatchException.m; sourceTree = "<group>"; };
+		OBJ_116 /* CwlCatchException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CwlCatchException.h; sourceTree = "<group>"; };
+		OBJ_117 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/Developer/TPPDFAsync/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap; sourceTree = "<group>"; };
+		OBJ_119 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
+		OBJ_12 /* PDFAsyncMultiDocumentGenerator+Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFAsyncMultiDocumentGenerator+Dispatch.swift"; sourceTree = "<group>"; };
+		OBJ_120 /* mach_excServer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mach_excServer.c; sourceTree = "<group>"; };
+		OBJ_122 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
+		OBJ_123 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/Developer/TPPDFAsync/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap; sourceTree = "<group>"; };
+		OBJ_125 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CwlBadInstructionException.swift; sourceTree = "<group>"; };
+		OBJ_126 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
+		OBJ_127 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
+		OBJ_128 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Developer/TPPDFAsync/.build/checkouts/Nimble/Package.swift; sourceTree = "<group>"; };
+		OBJ_13 /* PDFAsyncMultiDocumentGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAsyncMultiDocumentGenerator.swift; sourceTree = "<group>"; };
+		OBJ_130 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Developer/TPPDFAsync/.build/checkouts/TPPDF/Package.swift; sourceTree = "<group>"; };
+		OBJ_133 /* PDFExternalDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExternalDocument.swift; sourceTree = "<group>"; };
+		OBJ_135 /* PDFBezierPath+Copying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFBezierPath+Copying.swift"; sourceTree = "<group>"; };
+		OBJ_136 /* PDFBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBezierPath.swift; sourceTree = "<group>"; };
+		OBJ_137 /* PDFBezierPathVertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBezierPathVertex.swift; sourceTree = "<group>"; };
+		OBJ_138 /* PDFDynamicGeometryShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDynamicGeometryShape.swift; sourceTree = "<group>"; };
+		OBJ_139 /* PDFLineStyle+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFLineStyle+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_140 /* PDFLineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLineStyle.swift; sourceTree = "<group>"; };
+		OBJ_141 /* PDFLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLineType.swift; sourceTree = "<group>"; };
+		OBJ_143 /* PDFGroup+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFGroup+Objects.swift"; sourceTree = "<group>"; };
+		OBJ_144 /* PDFGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGroup.swift; sourceTree = "<group>"; };
+		OBJ_145 /* PDFGroupContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGroupContainer.swift; sourceTree = "<group>"; };
+		OBJ_146 /* PDFMasterGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMasterGroup.swift; sourceTree = "<group>"; };
+		OBJ_148 /* PDFImage+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFImage+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_149 /* PDFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImage.swift; sourceTree = "<group>"; };
+		OBJ_150 /* PDFImageOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageOptions.swift; sourceTree = "<group>"; };
+		OBJ_151 /* PDFImageSizeFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageSizeFit.swift; sourceTree = "<group>"; };
+		OBJ_153 /* PDFContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFContainer.swift; sourceTree = "<group>"; };
+		OBJ_154 /* PDFPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageLayout.swift; sourceTree = "<group>"; };
+		OBJ_156 /* PDFList+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFList+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_157 /* PDFList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFList.swift; sourceTree = "<group>"; };
+		OBJ_158 /* PDFListItem+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFListItem+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_159 /* PDFListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFListItem.swift; sourceTree = "<group>"; };
+		OBJ_16 /* TPPDFAsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPPDFAsyncTest.swift; sourceTree = "<group>"; };
+		OBJ_160 /* PDFListItemSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFListItemSymbol.swift; sourceTree = "<group>"; };
+		OBJ_162 /* PDFInfo+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFInfo+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_163 /* PDFInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFInfo.swift; sourceTree = "<group>"; };
+		OBJ_164 /* PDFDocument+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFDocument+Objects.swift"; sourceTree = "<group>"; };
+		OBJ_165 /* PDFDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
+		OBJ_166 /* PDFGenerator+Generation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFGenerator+Generation.swift"; sourceTree = "<group>"; };
+		OBJ_167 /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		OBJ_168 /* PDFGeneratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGeneratorProtocol.swift; sourceTree = "<group>"; };
+		OBJ_169 /* PDFMultiDocumentGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMultiDocumentGenerator.swift; sourceTree = "<group>"; };
+		OBJ_171 /* PDFPageFormat+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPageFormat+Layout.swift"; sourceTree = "<group>"; };
+		OBJ_172 /* PDFPageFormat+SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPageFormat+SizeConstants.swift"; sourceTree = "<group>"; };
+		OBJ_173 /* PDFPageFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageFormat.swift; sourceTree = "<group>"; };
+		OBJ_175 /* PDFSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSection.swift; sourceTree = "<group>"; };
+		OBJ_176 /* PDFSectionColumn+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFSectionColumn+Objects.swift"; sourceTree = "<group>"; };
+		OBJ_177 /* PDFSectionColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSectionColumn.swift; sourceTree = "<group>"; };
+		OBJ_179 /* PDFTableOfContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableOfContent.swift; sourceTree = "<group>"; };
+		OBJ_182 /* NSAttributedString+PDFTableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+PDFTableContent.swift"; sourceTree = "<group>"; };
+		OBJ_183 /* Number+PDFTableContentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+PDFTableContentable.swift"; sourceTree = "<group>"; };
+		OBJ_184 /* PDFTableContent+ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableContent+ContentType.swift"; sourceTree = "<group>"; };
+		OBJ_185 /* PDFTableContent+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableContent+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_186 /* PDFTableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableContent.swift; sourceTree = "<group>"; };
+		OBJ_187 /* PDFTableContentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableContentable.swift; sourceTree = "<group>"; };
+		OBJ_188 /* String+PDFTableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+PDFTableContent.swift"; sourceTree = "<group>"; };
+		OBJ_189 /* UIImage+PDFTableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PDFTableContent.swift"; sourceTree = "<group>"; };
+		OBJ_190 /* PDFTable+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTable+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_191 /* PDFTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTable.swift; sourceTree = "<group>"; };
+		OBJ_192 /* PDFTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableCell.swift; sourceTree = "<group>"; };
+		OBJ_193 /* PDFTableCellAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableCellAlignment.swift; sourceTree = "<group>"; };
+		OBJ_194 /* PDFTableCellPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableCellPosition.swift; sourceTree = "<group>"; };
+		OBJ_196 /* PDFTable+CellSubscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTable+CellSubscripts.swift"; sourceTree = "<group>"; };
+		OBJ_197 /* PDFTable+ColumnSubscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTable+ColumnSubscripts.swift"; sourceTree = "<group>"; };
+		OBJ_198 /* PDFTable+RowSubscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTable+RowSubscripts.swift"; sourceTree = "<group>"; };
+		OBJ_199 /* PDFTable+SectionSubscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTable+SectionSubscripts.swift"; sourceTree = "<group>"; };
+		OBJ_20 /* Behavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior.swift; sourceTree = "<group>"; };
+		OBJ_200 /* PDFTableColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableColumn.swift; sourceTree = "<group>"; };
+		OBJ_201 /* PDFTableColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableColumns.swift; sourceTree = "<group>"; };
+		OBJ_202 /* PDFTableMergeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableMergeable.swift; sourceTree = "<group>"; };
+		OBJ_203 /* PDFTableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableRow.swift; sourceTree = "<group>"; };
+		OBJ_204 /* PDFTableRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableRows.swift; sourceTree = "<group>"; };
+		OBJ_205 /* PDFTableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableSection.swift; sourceTree = "<group>"; };
+		OBJ_207 /* PDFTableCell+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableCell+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_208 /* PDFTableCellBorders+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableCellBorders+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_209 /* PDFTableCellBorders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableCellBorders.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Callsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callsite.swift; sourceTree = "<group>"; };
+		OBJ_210 /* PDFTableCellPosition+Equatable-Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableCellPosition+Equatable-Hashable.swift"; sourceTree = "<group>"; };
+		OBJ_211 /* PDFTableCellStyle+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableCellStyle+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_212 /* PDFTableCellStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableCellStyle.swift; sourceTree = "<group>"; };
+		OBJ_213 /* PDFTableStyle+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableStyle+Defaults.swift"; sourceTree = "<group>"; };
+		OBJ_214 /* PDFTableStyle+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFTableStyle+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_215 /* PDFTableStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableStyle.swift; sourceTree = "<group>"; };
+		OBJ_217 /* PDFAttributedText+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFAttributedText+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_218 /* PDFAttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAttributedText.swift; sourceTree = "<group>"; };
+		OBJ_219 /* PDFSimpleText+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFSimpleText+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_220 /* PDFSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSimpleText.swift; sourceTree = "<group>"; };
+		OBJ_221 /* PDFText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFText.swift; sourceTree = "<group>"; };
+		OBJ_222 /* PDFTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTextStyle.swift; sourceTree = "<group>"; };
+		OBJ_224 /* CrossPlattformGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlattformGraphics.swift; sourceTree = "<group>"; };
+		OBJ_225 /* PDFCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCopy.swift; sourceTree = "<group>"; };
+		OBJ_226 /* PDFDocumentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDocumentObject.swift; sourceTree = "<group>"; };
+		OBJ_227 /* PDFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFError.swift; sourceTree = "<group>"; };
+		OBJ_228 /* PDFRenderObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFRenderObject.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		OBJ_231 /* PDFExternalDocumentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExternalDocumentObject.swift; sourceTree = "<group>"; };
+		OBJ_232 /* PDFExternalPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExternalPageObject.swift; sourceTree = "<group>"; };
+		OBJ_234 /* PDFContextGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFContextGraphics.swift; sourceTree = "<group>"; };
+		OBJ_235 /* PDFGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGraphics.swift; sourceTree = "<group>"; };
+		OBJ_236 /* PDFLineObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLineObject.swift; sourceTree = "<group>"; };
+		OBJ_237 /* PDFLineSeparatorObject+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFLineSeparatorObject+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_238 /* PDFLineSeparatorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLineSeparatorObject.swift; sourceTree = "<group>"; };
+		OBJ_239 /* PDFRectangleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFRectangleObject.swift; sourceTree = "<group>"; };
+		OBJ_24 /* QuickConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_240 /* UIColor+CloseToEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CloseToEqual.swift"; sourceTree = "<group>"; };
+		OBJ_241 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		OBJ_242 /* UIImage+Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Pixel.swift"; sourceTree = "<group>"; };
+		OBJ_244 /* PDFGroupObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGroupObject.swift; sourceTree = "<group>"; };
+		OBJ_246 /* PDFImageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageObject.swift; sourceTree = "<group>"; };
+		OBJ_247 /* PDFImageRowObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageRowObject.swift; sourceTree = "<group>"; };
+		OBJ_249 /* PDFColumnLayoutState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFColumnLayoutState.swift; sourceTree = "<group>"; };
+		OBJ_250 /* PDFIndentationObject+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFIndentationObject+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_251 /* PDFIndentationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFIndentationObject.swift; sourceTree = "<group>"; };
+		OBJ_252 /* PDFLayout+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFLayout+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_253 /* PDFLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLayout.swift; sourceTree = "<group>"; };
+		OBJ_254 /* PDFLayoutHeights+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFLayoutHeights+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_255 /* PDFLayoutHeights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLayoutHeights.swift; sourceTree = "<group>"; };
+		OBJ_256 /* PDFLayoutIndentations+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFLayoutIndentations+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_257 /* PDFLayoutIndentations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLayoutIndentations.swift; sourceTree = "<group>"; };
+		OBJ_258 /* PDFMarginObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMarginObject.swift; sourceTree = "<group>"; };
+		OBJ_259 /* PDFOffsetObject+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFOffsetObject+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
+		OBJ_260 /* PDFOffsetObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFOffsetObject.swift; sourceTree = "<group>"; };
+		OBJ_261 /* PDFPageBreakObject+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPageBreakObject+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_262 /* PDFPageBreakObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageBreakObject.swift; sourceTree = "<group>"; };
+		OBJ_263 /* PDFPageLayout+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPageLayout+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_264 /* PDFSectionColumnContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSectionColumnContainer.swift; sourceTree = "<group>"; };
+		OBJ_265 /* PDFSpaceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSpaceObject.swift; sourceTree = "<group>"; };
+		OBJ_267 /* PDFListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFListObject.swift; sourceTree = "<group>"; };
+		OBJ_269 /* CGPoint+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Math.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* World+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "World+DSL.swift"; sourceTree = "<group>"; };
+		OBJ_270 /* CGPoint+Null.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Null.swift"; sourceTree = "<group>"; };
+		OBJ_271 /* PDFGenerator+Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFGenerator+Debug.swift"; sourceTree = "<group>"; };
+		OBJ_272 /* PDFGenerator+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFGenerator+Layout.swift"; sourceTree = "<group>"; };
+		OBJ_274 /* Int+RomanNumerals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+RomanNumerals.swift"; sourceTree = "<group>"; };
+		OBJ_275 /* PDFPagination+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPagination+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_276 /* PDFPagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPagination.swift; sourceTree = "<group>"; };
+		OBJ_277 /* PDFPaginationClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPaginationClosure.swift; sourceTree = "<group>"; };
+		OBJ_278 /* PDFPaginationStyle+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFPaginationStyle+Equatable.swift"; sourceTree = "<group>"; };
+		OBJ_279 /* PDFPaginationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPaginationStyle.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ErrorUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorUtility.swift; sourceTree = "<group>"; };
+		OBJ_281 /* PDFColumnWrapSectionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFColumnWrapSectionObject.swift; sourceTree = "<group>"; };
+		OBJ_282 /* PDFSectionColumnObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSectionColumnObject.swift; sourceTree = "<group>"; };
+		OBJ_283 /* PDFSectionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSectionObject.swift; sourceTree = "<group>"; };
+		OBJ_285 /* PDFTableOfContentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableOfContentObject.swift; sourceTree = "<group>"; };
+		OBJ_287 /* PDFTableMergeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableMergeUtil.swift; sourceTree = "<group>"; };
+		OBJ_288 /* PDFTableNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableNode.swift; sourceTree = "<group>"; };
+		OBJ_289 /* PDFTableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableObject.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		OBJ_290 /* PDFTableValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableValidator.swift; sourceTree = "<group>"; };
+		OBJ_292 /* PDFAttributedTextObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAttributedTextObject.swift; sourceTree = "<group>"; };
+		OBJ_293 /* PDFFontObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFontObject.swift; sourceTree = "<group>"; };
+		OBJ_294 /* PDFTextColorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTextColorObject.swift; sourceTree = "<group>"; };
+		OBJ_297 /* PDFAttributableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAttributableObject.swift; sourceTree = "<group>"; };
+		OBJ_298 /* PDFObjectAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFObjectAttribute.swift; sourceTree = "<group>"; };
+		OBJ_299 /* CustomStringConvertible+AutoDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+AutoDescribing.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* ExampleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGroup.swift; sourceTree = "<group>"; };
+		OBJ_300 /* FileManager+TemporaryFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+TemporaryFiles.swift"; sourceTree = "<group>"; };
+		OBJ_301 /* PDFCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCalculations.swift; sourceTree = "<group>"; };
+		OBJ_302 /* PDFLocatedRenderObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLocatedRenderObject.swift; sourceTree = "<group>"; };
+		OBJ_303 /* PDFSlicedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSlicedObject.swift; sourceTree = "<group>"; };
+		OBJ_304 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		OBJ_305 /* WeakRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRef.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ExampleMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetadata.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		OBJ_35 /* ExampleHooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHooks.swift; sourceTree = "<group>"; };
+		OBJ_36 /* HooksPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooksPhase.swift; sourceTree = "<group>"; };
+		OBJ_37 /* SuiteHooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuiteHooks.swift; sourceTree = "<group>"; };
+		OBJ_38 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		OBJ_39 /* QuickMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMain.swift; sourceTree = "<group>"; };
+		OBJ_40 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
+		OBJ_41 /* QuickSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSpec.swift; sourceTree = "<group>"; };
+		OBJ_42 /* QuickTestObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTestObservation.swift; sourceTree = "<group>"; };
+		OBJ_43 /* QuickTestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTestSuite.swift; sourceTree = "<group>"; };
+		OBJ_44 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* URL+FileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+FileName.swift"; sourceTree = "<group>"; };
+		OBJ_46 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		OBJ_48 /* QuickSpecBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSpecBase.m; sourceTree = "<group>"; };
+		OBJ_50 /* QuickSpecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSpecBase.h; sourceTree = "<group>"; };
+		OBJ_51 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/Developer/TPPDFAsync/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap; sourceTree = "<group>"; };
+		OBJ_52 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Developer/TPPDFAsync/.build/checkouts/Quick/Package.swift; sourceTree = "<group>"; };
+		OBJ_56 /* AdapterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterProtocols.swift; sourceTree = "<group>"; };
+		OBJ_57 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionDispatcher.swift; sourceTree = "<group>"; };
+		OBJ_58 /* AssertionRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionRecorder.swift; sourceTree = "<group>"; };
+		OBJ_59 /* NMBExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBExpectation.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		OBJ_61 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleEnvironment.swift; sourceTree = "<group>"; };
+		OBJ_62 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		OBJ_64 /* ExceptionCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionCapture.swift; sourceTree = "<group>"; };
+		OBJ_65 /* DSL+Wait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DSL+Wait.swift"; sourceTree = "<group>"; };
+		OBJ_66 /* DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		OBJ_68 /* ExpectationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectationMessage.swift; sourceTree = "<group>"; };
+		OBJ_69 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		OBJ_70 /* FailureMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureMessage.swift; sourceTree = "<group>"; };
+		OBJ_72 /* AllPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPass.swift; sourceTree = "<group>"; };
+		OBJ_73 /* Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		OBJ_74 /* BeAKindOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAKindOf.swift; sourceTree = "<group>"; };
+		OBJ_75 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		OBJ_76 /* BeCloseTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeCloseTo.swift; sourceTree = "<group>"; };
+		OBJ_77 /* BeEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeEmpty.swift; sourceTree = "<group>"; };
+		OBJ_78 /* BeGreaterThan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeGreaterThan.swift; sourceTree = "<group>"; };
+		OBJ_79 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		OBJ_8 /* PDFAsyncGenerator+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFAsyncGenerator+Combine.swift"; sourceTree = "<group>"; };
+		OBJ_80 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeIdenticalTo.swift; sourceTree = "<group>"; };
+		OBJ_81 /* BeLessThan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeLessThan.swift; sourceTree = "<group>"; };
+		OBJ_82 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		OBJ_83 /* BeLogical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeLogical.swift; sourceTree = "<group>"; };
+		OBJ_84 /* BeNil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeNil.swift; sourceTree = "<group>"; };
+		OBJ_85 /* BeVoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeVoid.swift; sourceTree = "<group>"; };
+		OBJ_86 /* BeginWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginWith.swift; sourceTree = "<group>"; };
+		OBJ_87 /* Contain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
+		OBJ_88 /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainElementSatisfying.swift; sourceTree = "<group>"; };
+		OBJ_89 /* ElementsEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsEqual.swift; sourceTree = "<group>"; };
+		OBJ_9 /* PDFAsyncGenerator+Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFAsyncGenerator+Dispatch.swift"; sourceTree = "<group>"; };
+		OBJ_90 /* EndWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndWith.swift; sourceTree = "<group>"; };
+		OBJ_91 /* Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equal.swift; sourceTree = "<group>"; };
+		OBJ_92 /* HaveCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveCount.swift; sourceTree = "<group>"; };
+		OBJ_93 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		OBJ_94 /* MatchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchError.swift; sourceTree = "<group>"; };
+		OBJ_95 /* MatcherFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatcherFunc.swift; sourceTree = "<group>"; };
+		OBJ_96 /* MatcherProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatcherProtocols.swift; sourceTree = "<group>"; };
+		OBJ_97 /* PostNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNotification.swift; sourceTree = "<group>"; };
+		OBJ_98 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		OBJ_99 /* RaisesException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisesException.swift; sourceTree = "<group>"; };
+		"Quick::Quick::Product" /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickObjCRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TPPDF::TPPDF::Product" /* TPPDF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TPPDF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TPPDFAsync::TPPDFAsync::Product" /* TPPDFAsync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TPPDFAsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TPPDFAsync::TPPDFAsyncTests::Product" /* TPPDFAsyncTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = TPPDFAsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_375 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
+				OBJ_376 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_377 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_378 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_393 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_416 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_417 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_418 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_458 /* QuickObjCRuntime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_634 /* TPPDF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_654 /* Nimble.framework in Frameworks */,
+				OBJ_655 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
+				OBJ_656 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_657 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_658 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
+				OBJ_659 /* Quick.framework in Frameworks */,
+				OBJ_660 /* QuickObjCRuntime.framework in Frameworks */,
+				OBJ_661 /* TPPDFAsync.framework in Frameworks */,
+				OBJ_662 /* TPPDF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_105 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_106 /* Await.swift */,
+				OBJ_107 /* Errors.swift */,
+				OBJ_108 /* Functional.swift */,
+				OBJ_109 /* SourceLocation.swift */,
+				OBJ_110 /* Stringers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_111 /* NimbleCwlCatchException */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_112 /* CwlCatchException.swift */,
+			);
+			name = NimbleCwlCatchException;
+			path = .build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchException;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_113 /* NimbleCwlCatchExceptionSupport */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_114 /* CwlCatchException.m */,
+				OBJ_115 /* include */,
+			);
+			name = NimbleCwlCatchExceptionSupport;
+			path = .build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_115 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_116 /* CwlCatchException.h */,
+				OBJ_117 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_118 /* NimbleCwlMachBadInstructionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_119 /* CwlMachBadInstructionHandler.m */,
+				OBJ_120 /* mach_excServer.c */,
+				OBJ_121 /* include */,
+			);
+			name = NimbleCwlMachBadInstructionHandler;
+			path = .build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_121 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_122 /* CwlMachBadInstructionHandler.h */,
+				OBJ_123 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_124 /* NimbleCwlPreconditionTesting */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_125 /* CwlBadInstructionException.swift */,
+				OBJ_126 /* CwlCatchBadInstruction.swift */,
+				OBJ_127 /* CwlDarwinDefinitions.swift */,
+			);
+			name = NimbleCwlPreconditionTesting;
+			path = .build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_129 /* TPPDF 2.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_130 /* Package.swift */,
+				OBJ_131 /* API */,
+				OBJ_229 /* Internal */,
+			);
+			name = "TPPDF 2.2.0";
+			path = .build/checkouts/TPPDF/Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_131 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_132 /* External */,
+				OBJ_134 /* Graphics */,
+				OBJ_142 /* Groups */,
+				OBJ_147 /* Image */,
+				OBJ_152 /* Layout */,
+				OBJ_155 /* List */,
+				OBJ_161 /* Metadata */,
+				OBJ_164 /* PDFDocument+Objects.swift */,
+				OBJ_165 /* PDFDocument.swift */,
+				OBJ_166 /* PDFGenerator+Generation.swift */,
+				OBJ_167 /* PDFGenerator.swift */,
+				OBJ_168 /* PDFGeneratorProtocol.swift */,
+				OBJ_169 /* PDFMultiDocumentGenerator.swift */,
+				OBJ_170 /* Page Format */,
+				OBJ_174 /* Section */,
+				OBJ_178 /* Table Of Content */,
+				OBJ_180 /* Table */,
+				OBJ_216 /* Text */,
+				OBJ_223 /* Utils */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		OBJ_132 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_133 /* PDFExternalDocument.swift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		OBJ_134 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_135 /* PDFBezierPath+Copying.swift */,
+				OBJ_136 /* PDFBezierPath.swift */,
+				OBJ_137 /* PDFBezierPathVertex.swift */,
+				OBJ_138 /* PDFDynamicGeometryShape.swift */,
+				OBJ_139 /* PDFLineStyle+Equatable.swift */,
+				OBJ_140 /* PDFLineStyle.swift */,
+				OBJ_141 /* PDFLineType.swift */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* TPPDFAsyncTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_142 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_143 /* PDFGroup+Objects.swift */,
+				OBJ_144 /* PDFGroup.swift */,
+				OBJ_145 /* PDFGroupContainer.swift */,
+				OBJ_146 /* PDFMasterGroup.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		OBJ_147 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_148 /* PDFImage+Equatable.swift */,
+				OBJ_149 /* PDFImage.swift */,
+				OBJ_150 /* PDFImageOptions.swift */,
+				OBJ_151 /* PDFImageSizeFit.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* TPPDFAsyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* TPPDFAsyncTest.swift */,
+			);
+			name = TPPDFAsyncTests;
+			path = Tests/TPPDFAsyncTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_152 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_153 /* PDFContainer.swift */,
+				OBJ_154 /* PDFPageLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		OBJ_155 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_156 /* PDFList+Equatable.swift */,
+				OBJ_157 /* PDFList.swift */,
+				OBJ_158 /* PDFListItem+Equatable.swift */,
+				OBJ_159 /* PDFListItem.swift */,
+				OBJ_160 /* PDFListItemSymbol.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		OBJ_161 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_162 /* PDFInfo+Equatable.swift */,
+				OBJ_163 /* PDFInfo.swift */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* Quick 2.2.1 */,
+				OBJ_53 /* Nimble 8.1.1 */,
+				OBJ_129 /* TPPDF 2.2.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_170 /* Page Format */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_171 /* PDFPageFormat+Layout.swift */,
+				OBJ_172 /* PDFPageFormat+SizeConstants.swift */,
+				OBJ_173 /* PDFPageFormat.swift */,
+			);
+			path = "Page Format";
+			sourceTree = "<group>";
+		};
+		OBJ_174 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_175 /* PDFSection.swift */,
+				OBJ_176 /* PDFSectionColumn+Objects.swift */,
+				OBJ_177 /* PDFSectionColumn.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		OBJ_178 /* Table Of Content */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_179 /* PDFTableOfContent.swift */,
+			);
+			path = "Table Of Content";
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Quick 2.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* Quick */,
+				OBJ_47 /* QuickObjCRuntime */,
+				OBJ_52 /* Package.swift */,
+			);
+			name = "Quick 2.2.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_180 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_181 /* Content */,
+				OBJ_190 /* PDFTable+Equatable.swift */,
+				OBJ_191 /* PDFTable.swift */,
+				OBJ_192 /* PDFTableCell.swift */,
+				OBJ_193 /* PDFTableCellAlignment.swift */,
+				OBJ_194 /* PDFTableCellPosition.swift */,
+				OBJ_195 /* Sections */,
+				OBJ_206 /* Style */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		OBJ_181 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_182 /* NSAttributedString+PDFTableContent.swift */,
+				OBJ_183 /* Number+PDFTableContentable.swift */,
+				OBJ_184 /* PDFTableContent+ContentType.swift */,
+				OBJ_185 /* PDFTableContent+Equatable.swift */,
+				OBJ_186 /* PDFTableContent.swift */,
+				OBJ_187 /* PDFTableContentable.swift */,
+				OBJ_188 /* String+PDFTableContent.swift */,
+				OBJ_189 /* UIImage+PDFTableContent.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* Behavior.swift */,
+				OBJ_21 /* Callsite.swift */,
+				OBJ_22 /* Configuration */,
+				OBJ_25 /* DSL */,
+				OBJ_28 /* ErrorUtility.swift */,
+				OBJ_29 /* Example.swift */,
+				OBJ_30 /* ExampleGroup.swift */,
+				OBJ_31 /* ExampleMetadata.swift */,
+				OBJ_32 /* Filter.swift */,
+				OBJ_33 /* Hooks */,
+				OBJ_38 /* NSBundle+CurrentTestBundle.swift */,
+				OBJ_39 /* QuickMain.swift */,
+				OBJ_40 /* QuickSelectedTestSuiteBuilder.swift */,
+				OBJ_41 /* QuickSpec.swift */,
+				OBJ_42 /* QuickTestObservation.swift */,
+				OBJ_43 /* QuickTestSuite.swift */,
+				OBJ_44 /* String+C99ExtendedIdentifier.swift */,
+				OBJ_45 /* URL+FileName.swift */,
+				OBJ_46 /* World.swift */,
+			);
+			name = Quick;
+			path = .build/checkouts/Quick/Sources/Quick;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_195 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_196 /* PDFTable+CellSubscripts.swift */,
+				OBJ_197 /* PDFTable+ColumnSubscripts.swift */,
+				OBJ_198 /* PDFTable+RowSubscripts.swift */,
+				OBJ_199 /* PDFTable+SectionSubscripts.swift */,
+				OBJ_200 /* PDFTableColumn.swift */,
+				OBJ_201 /* PDFTableColumns.swift */,
+				OBJ_202 /* PDFTableMergeable.swift */,
+				OBJ_203 /* PDFTableRow.swift */,
+				OBJ_204 /* PDFTableRows.swift */,
+				OBJ_205 /* PDFTableSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		OBJ_206 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_207 /* PDFTableCell+Equatable.swift */,
+				OBJ_208 /* PDFTableCellBorders+Equatable.swift */,
+				OBJ_209 /* PDFTableCellBorders.swift */,
+				OBJ_210 /* PDFTableCellPosition+Equatable-Hashable.swift */,
+				OBJ_211 /* PDFTableCellStyle+Equatable.swift */,
+				OBJ_212 /* PDFTableCellStyle.swift */,
+				OBJ_213 /* PDFTableStyle+Defaults.swift */,
+				OBJ_214 /* PDFTableStyle+Equatable.swift */,
+				OBJ_215 /* PDFTableStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		OBJ_216 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_217 /* PDFAttributedText+Equatable.swift */,
+				OBJ_218 /* PDFAttributedText.swift */,
+				OBJ_219 /* PDFSimpleText+Equatable.swift */,
+				OBJ_220 /* PDFSimpleText.swift */,
+				OBJ_221 /* PDFText.swift */,
+				OBJ_222 /* PDFTextStyle.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* Configuration.swift */,
+				OBJ_24 /* QuickConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		OBJ_223 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_224 /* CrossPlattformGraphics.swift */,
+				OBJ_225 /* PDFCopy.swift */,
+				OBJ_226 /* PDFDocumentObject.swift */,
+				OBJ_227 /* PDFError.swift */,
+				OBJ_228 /* PDFRenderObject.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_229 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_230 /* External */,
+				OBJ_233 /* Graphics */,
+				OBJ_243 /* Group */,
+				OBJ_245 /* Image */,
+				OBJ_248 /* Layout */,
+				OBJ_266 /* List */,
+				OBJ_268 /* Math */,
+				OBJ_271 /* PDFGenerator+Debug.swift */,
+				OBJ_272 /* PDFGenerator+Layout.swift */,
+				OBJ_273 /* Pagination */,
+				OBJ_280 /* Section */,
+				OBJ_284 /* Table Of Content */,
+				OBJ_286 /* Table */,
+				OBJ_291 /* Text */,
+				OBJ_295 /* Utils */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		OBJ_230 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_231 /* PDFExternalDocumentObject.swift */,
+				OBJ_232 /* PDFExternalPageObject.swift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		OBJ_233 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_234 /* PDFContextGraphics.swift */,
+				OBJ_235 /* PDFGraphics.swift */,
+				OBJ_236 /* PDFLineObject.swift */,
+				OBJ_237 /* PDFLineSeparatorObject+Equatable.swift */,
+				OBJ_238 /* PDFLineSeparatorObject.swift */,
+				OBJ_239 /* PDFRectangleObject.swift */,
+				OBJ_240 /* UIColor+CloseToEqual.swift */,
+				OBJ_241 /* UIColor+Hex.swift */,
+				OBJ_242 /* UIImage+Pixel.swift */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		OBJ_243 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_244 /* PDFGroupObject.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		OBJ_245 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_246 /* PDFImageObject.swift */,
+				OBJ_247 /* PDFImageRowObject.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		OBJ_248 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_249 /* PDFColumnLayoutState.swift */,
+				OBJ_250 /* PDFIndentationObject+Equatable.swift */,
+				OBJ_251 /* PDFIndentationObject.swift */,
+				OBJ_252 /* PDFLayout+Equatable.swift */,
+				OBJ_253 /* PDFLayout.swift */,
+				OBJ_254 /* PDFLayoutHeights+Equatable.swift */,
+				OBJ_255 /* PDFLayoutHeights.swift */,
+				OBJ_256 /* PDFLayoutIndentations+Equatable.swift */,
+				OBJ_257 /* PDFLayoutIndentations.swift */,
+				OBJ_258 /* PDFMarginObject.swift */,
+				OBJ_259 /* PDFOffsetObject+Equatable.swift */,
+				OBJ_260 /* PDFOffsetObject.swift */,
+				OBJ_261 /* PDFPageBreakObject+Equatable.swift */,
+				OBJ_262 /* PDFPageBreakObject.swift */,
+				OBJ_263 /* PDFPageLayout+Equatable.swift */,
+				OBJ_264 /* PDFSectionColumnContainer.swift */,
+				OBJ_265 /* PDFSpaceObject.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		OBJ_25 /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* DSL.swift */,
+				OBJ_27 /* World+DSL.swift */,
+			);
+			path = DSL;
+			sourceTree = "<group>";
+		};
+		OBJ_266 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_267 /* PDFListObject.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		OBJ_268 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_269 /* CGPoint+Math.swift */,
+				OBJ_270 /* CGPoint+Null.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		OBJ_273 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_274 /* Int+RomanNumerals.swift */,
+				OBJ_275 /* PDFPagination+Equatable.swift */,
+				OBJ_276 /* PDFPagination.swift */,
+				OBJ_277 /* PDFPaginationClosure.swift */,
+				OBJ_278 /* PDFPaginationStyle+Equatable.swift */,
+				OBJ_279 /* PDFPaginationStyle.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		OBJ_280 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_281 /* PDFColumnWrapSectionObject.swift */,
+				OBJ_282 /* PDFSectionColumnObject.swift */,
+				OBJ_283 /* PDFSectionObject.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		OBJ_284 /* Table Of Content */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_285 /* PDFTableOfContentObject.swift */,
+			);
+			path = "Table Of Content";
+			sourceTree = "<group>";
+		};
+		OBJ_286 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_287 /* PDFTableMergeUtil.swift */,
+				OBJ_288 /* PDFTableNode.swift */,
+				OBJ_289 /* PDFTableObject.swift */,
+				OBJ_290 /* PDFTableValidator.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		OBJ_291 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_292 /* PDFAttributedTextObject.swift */,
+				OBJ_293 /* PDFFontObject.swift */,
+				OBJ_294 /* PDFTextColorObject.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		OBJ_295 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_296 /* Attributes */,
+				OBJ_299 /* CustomStringConvertible+AutoDescribing.swift */,
+				OBJ_300 /* FileManager+TemporaryFiles.swift */,
+				OBJ_301 /* PDFCalculations.swift */,
+				OBJ_302 /* PDFLocatedRenderObject.swift */,
+				OBJ_303 /* PDFSlicedObject.swift */,
+				OBJ_304 /* Stack.swift */,
+				OBJ_305 /* WeakRef.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_296 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_297 /* PDFAttributableObject.swift */,
+				OBJ_298 /* PDFObjectAttribute.swift */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		OBJ_306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */,
+				"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */,
+				"Nimble::Nimble::Product" /* Nimble.framework */,
+				"Quick::Quick::Product" /* Quick.framework */,
+				"TPPDF::TPPDF::Product" /* TPPDF.framework */,
+				"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */,
+				"TPPDFAsync::TPPDFAsync::Product" /* TPPDFAsync.framework */,
+				"Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */,
+				"TPPDFAsync::TPPDFAsyncTests::Product" /* TPPDFAsyncTests.xctest */,
+				"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_33 /* Hooks */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* Closures.swift */,
+				OBJ_35 /* ExampleHooks.swift */,
+				OBJ_36 /* HooksPhase.swift */,
+				OBJ_37 /* SuiteHooks.swift */,
+			);
+			path = Hooks;
+			sourceTree = "<group>";
+		};
+		OBJ_47 /* QuickObjCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_48 /* QuickSpecBase.m */,
+				OBJ_49 /* include */,
+			);
+			name = QuickObjCRuntime;
+			path = .build/checkouts/Quick/Sources/QuickObjCRuntime;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_49 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* QuickSpecBase.h */,
+				OBJ_51 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_14 /* Tests */,
+				OBJ_17 /* Dependencies */,
+				OBJ_306 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_53 /* Nimble 8.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_54 /* Nimble */,
+				OBJ_111 /* NimbleCwlCatchException */,
+				OBJ_113 /* NimbleCwlCatchExceptionSupport */,
+				OBJ_118 /* NimbleCwlMachBadInstructionHandler */,
+				OBJ_124 /* NimbleCwlPreconditionTesting */,
+				OBJ_128 /* Package.swift */,
+			);
+			name = "Nimble 8.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_54 /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_55 /* Adapters */,
+				OBJ_65 /* DSL+Wait.swift */,
+				OBJ_66 /* DSL.swift */,
+				OBJ_67 /* Expectation.swift */,
+				OBJ_68 /* ExpectationMessage.swift */,
+				OBJ_69 /* Expression.swift */,
+				OBJ_70 /* FailureMessage.swift */,
+				OBJ_71 /* Matchers */,
+				OBJ_105 /* Utils */,
+			);
+			name = Nimble;
+			path = .build/checkouts/Nimble/Sources/Nimble;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_55 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_56 /* AdapterProtocols.swift */,
+				OBJ_57 /* AssertionDispatcher.swift */,
+				OBJ_58 /* AssertionRecorder.swift */,
+				OBJ_59 /* NMBExpectation.swift */,
+				OBJ_60 /* NMBObjCMatcher.swift */,
+				OBJ_61 /* NimbleEnvironment.swift */,
+				OBJ_62 /* NimbleXCTestHandler.swift */,
+				OBJ_63 /* NonObjectiveC */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		OBJ_63 /* NonObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_64 /* ExceptionCapture.swift */,
+			);
+			path = NonObjectiveC;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* PDFAsyncGenerator+Combine.swift */,
+				OBJ_9 /* PDFAsyncGenerator+Dispatch.swift */,
+				OBJ_10 /* PDFAsyncGenerator.swift */,
+				OBJ_11 /* PDFAsyncMultiDocumentGenerator+Combine.swift */,
+				OBJ_12 /* PDFAsyncMultiDocumentGenerator+Dispatch.swift */,
+				OBJ_13 /* PDFAsyncMultiDocumentGenerator.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_71 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_72 /* AllPass.swift */,
+				OBJ_73 /* Async.swift */,
+				OBJ_74 /* BeAKindOf.swift */,
+				OBJ_75 /* BeAnInstanceOf.swift */,
+				OBJ_76 /* BeCloseTo.swift */,
+				OBJ_77 /* BeEmpty.swift */,
+				OBJ_78 /* BeGreaterThan.swift */,
+				OBJ_79 /* BeGreaterThanOrEqualTo.swift */,
+				OBJ_80 /* BeIdenticalTo.swift */,
+				OBJ_81 /* BeLessThan.swift */,
+				OBJ_82 /* BeLessThanOrEqual.swift */,
+				OBJ_83 /* BeLogical.swift */,
+				OBJ_84 /* BeNil.swift */,
+				OBJ_85 /* BeVoid.swift */,
+				OBJ_86 /* BeginWith.swift */,
+				OBJ_87 /* Contain.swift */,
+				OBJ_88 /* ContainElementSatisfying.swift */,
+				OBJ_89 /* ElementsEqual.swift */,
+				OBJ_90 /* EndWith.swift */,
+				OBJ_91 /* Equal.swift */,
+				OBJ_92 /* HaveCount.swift */,
+				OBJ_93 /* Match.swift */,
+				OBJ_94 /* MatchError.swift */,
+				OBJ_95 /* MatcherFunc.swift */,
+				OBJ_96 /* MatcherProtocols.swift */,
+				OBJ_97 /* PostNotification.swift */,
+				OBJ_98 /* Predicate.swift */,
+				OBJ_99 /* RaisesException.swift */,
+				OBJ_100 /* SatisfyAllOf.swift */,
+				OBJ_101 /* SatisfyAnyOf.swift */,
+				OBJ_102 /* ThrowAssertion.swift */,
+				OBJ_103 /* ThrowError.swift */,
+				OBJ_104 /* ToSucceed.swift */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Nimble::Nimble" /* Nimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_318 /* Build configuration list for PBXNativeTarget "Nimble" */;
+			buildPhases = (
+				OBJ_321 /* Sources */,
+				OBJ_374 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_379 /* PBXTargetDependency */,
+				OBJ_381 /* PBXTargetDependency */,
+				OBJ_383 /* PBXTargetDependency */,
+				OBJ_385 /* PBXTargetDependency */,
+			);
+			name = Nimble;
+			productName = Nimble;
+			productReference = "Nimble::Nimble::Product" /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_387 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */;
+			buildPhases = (
+				OBJ_390 /* Sources */,
+				OBJ_392 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_394 /* PBXTargetDependency */,
+			);
+			name = NimbleCwlCatchException;
+			productName = NimbleCwlCatchException;
+			productReference = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_395 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */;
+			buildPhases = (
+				OBJ_398 /* Sources */,
+				OBJ_400 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleCwlCatchExceptionSupport;
+			productName = NimbleCwlCatchExceptionSupport;
+			productReference = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_401 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */;
+			buildPhases = (
+				OBJ_404 /* Sources */,
+				OBJ_407 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleCwlMachBadInstructionHandler;
+			productName = NimbleCwlMachBadInstructionHandler;
+			productReference = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_408 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */;
+			buildPhases = (
+				OBJ_411 /* Sources */,
+				OBJ_415 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_419 /* PBXTargetDependency */,
+				OBJ_420 /* PBXTargetDependency */,
+				OBJ_421 /* PBXTargetDependency */,
+			);
+			name = NimbleCwlPreconditionTesting;
+			productName = NimbleCwlPreconditionTesting;
+			productReference = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Nimble::SwiftPMPackageDescription" /* NimblePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_423 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */;
+			buildPhases = (
+				OBJ_426 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimblePackageDescription;
+			productName = NimblePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Quick::Quick" /* Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_429 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildPhases = (
+				OBJ_432 /* Sources */,
+				OBJ_457 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_459 /* PBXTargetDependency */,
+			);
+			name = Quick;
+			productName = Quick;
+			productReference = "Quick::Quick::Product" /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Quick::QuickObjCRuntime" /* QuickObjCRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_461 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */;
+			buildPhases = (
+				OBJ_464 /* Sources */,
+				OBJ_466 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickObjCRuntime;
+			productName = QuickObjCRuntime;
+			productReference = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Quick::SwiftPMPackageDescription" /* QuickPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_468 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */;
+			buildPhases = (
+				OBJ_471 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickPackageDescription;
+			productName = QuickPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TPPDF::SwiftPMPackageDescription" /* TPPDFPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_673 /* Build configuration list for PBXNativeTarget "TPPDFPackageDescription" */;
+			buildPhases = (
+				OBJ_676 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPPDFPackageDescription;
+			productName = TPPDFPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TPPDF::TPPDF" /* TPPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_474 /* Build configuration list for PBXNativeTarget "TPPDF" */;
+			buildPhases = (
+				OBJ_477 /* Sources */,
+				OBJ_621 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPPDF;
+			productName = TPPDF;
+			productReference = "TPPDF::TPPDF::Product" /* TPPDF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TPPDFAsync::SwiftPMPackageDescription" /* TPPDFAsyncPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_637 /* Build configuration list for PBXNativeTarget "TPPDFAsyncPackageDescription" */;
+			buildPhases = (
+				OBJ_640 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPPDFAsyncPackageDescription;
+			productName = TPPDFAsyncPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TPPDFAsync::TPPDFAsync" /* TPPDFAsync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_623 /* Build configuration list for PBXNativeTarget "TPPDFAsync" */;
+			buildPhases = (
+				OBJ_626 /* Sources */,
+				OBJ_633 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_635 /* PBXTargetDependency */,
+			);
+			name = TPPDFAsync;
+			productName = TPPDFAsync;
+			productReference = "TPPDFAsync::TPPDFAsync::Product" /* TPPDFAsync.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TPPDFAsync::TPPDFAsyncTests" /* TPPDFAsyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_648 /* Build configuration list for PBXNativeTarget "TPPDFAsyncTests" */;
+			buildPhases = (
+				OBJ_651 /* Sources */,
+				OBJ_653 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_663 /* PBXTargetDependency */,
+				OBJ_664 /* PBXTargetDependency */,
+				OBJ_665 /* PBXTargetDependency */,
+				OBJ_666 /* PBXTargetDependency */,
+				OBJ_667 /* PBXTargetDependency */,
+				OBJ_668 /* PBXTargetDependency */,
+				OBJ_669 /* PBXTargetDependency */,
+				OBJ_670 /* PBXTargetDependency */,
+				OBJ_671 /* PBXTargetDependency */,
+			);
+			name = TPPDFAsyncTests;
+			productName = TPPDFAsyncTests;
+			productReference = "TPPDFAsync::TPPDFAsyncTests::Product" /* TPPDFAsyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				ORGANIZATIONNAME = "techprimate GmbH & Co. KG";
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "TPPDFAsync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Nimble::Nimble" /* Nimble */,
+				"Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */,
+				"Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */,
+				"Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */,
+				"Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */,
+				"Nimble::SwiftPMPackageDescription" /* NimblePackageDescription */,
+				"Quick::Quick" /* Quick */,
+				"Quick::QuickObjCRuntime" /* QuickObjCRuntime */,
+				"Quick::SwiftPMPackageDescription" /* QuickPackageDescription */,
+				"TPPDF::TPPDF" /* TPPDF */,
+				"TPPDFAsync::TPPDFAsync" /* TPPDFAsync */,
+				"TPPDFAsync::SwiftPMPackageDescription" /* TPPDFAsyncPackageDescription */,
+				"TPPDFAsync::TPPDFAsyncPackageTests::ProductTarget" /* TPPDFAsyncPackageTests */,
+				"TPPDFAsync::TPPDFAsyncTests" /* TPPDFAsyncTests */,
+				"TPPDF::SwiftPMPackageDescription" /* TPPDFPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_322 /* AdapterProtocols.swift in Sources */,
+				OBJ_323 /* AssertionDispatcher.swift in Sources */,
+				OBJ_324 /* AssertionRecorder.swift in Sources */,
+				OBJ_325 /* NMBExpectation.swift in Sources */,
+				OBJ_326 /* NMBObjCMatcher.swift in Sources */,
+				OBJ_327 /* NimbleEnvironment.swift in Sources */,
+				OBJ_328 /* NimbleXCTestHandler.swift in Sources */,
+				OBJ_329 /* ExceptionCapture.swift in Sources */,
+				OBJ_330 /* DSL+Wait.swift in Sources */,
+				OBJ_331 /* DSL.swift in Sources */,
+				OBJ_332 /* Expectation.swift in Sources */,
+				OBJ_333 /* ExpectationMessage.swift in Sources */,
+				OBJ_334 /* Expression.swift in Sources */,
+				OBJ_335 /* FailureMessage.swift in Sources */,
+				OBJ_336 /* AllPass.swift in Sources */,
+				OBJ_337 /* Async.swift in Sources */,
+				OBJ_338 /* BeAKindOf.swift in Sources */,
+				OBJ_339 /* BeAnInstanceOf.swift in Sources */,
+				OBJ_340 /* BeCloseTo.swift in Sources */,
+				OBJ_341 /* BeEmpty.swift in Sources */,
+				OBJ_342 /* BeGreaterThan.swift in Sources */,
+				OBJ_343 /* BeGreaterThanOrEqualTo.swift in Sources */,
+				OBJ_344 /* BeIdenticalTo.swift in Sources */,
+				OBJ_345 /* BeLessThan.swift in Sources */,
+				OBJ_346 /* BeLessThanOrEqual.swift in Sources */,
+				OBJ_347 /* BeLogical.swift in Sources */,
+				OBJ_348 /* BeNil.swift in Sources */,
+				OBJ_349 /* BeVoid.swift in Sources */,
+				OBJ_350 /* BeginWith.swift in Sources */,
+				OBJ_351 /* Contain.swift in Sources */,
+				OBJ_352 /* ContainElementSatisfying.swift in Sources */,
+				OBJ_353 /* ElementsEqual.swift in Sources */,
+				OBJ_354 /* EndWith.swift in Sources */,
+				OBJ_355 /* Equal.swift in Sources */,
+				OBJ_356 /* HaveCount.swift in Sources */,
+				OBJ_357 /* Match.swift in Sources */,
+				OBJ_358 /* MatchError.swift in Sources */,
+				OBJ_359 /* MatcherFunc.swift in Sources */,
+				OBJ_360 /* MatcherProtocols.swift in Sources */,
+				OBJ_361 /* PostNotification.swift in Sources */,
+				OBJ_362 /* Predicate.swift in Sources */,
+				OBJ_363 /* RaisesException.swift in Sources */,
+				OBJ_364 /* SatisfyAllOf.swift in Sources */,
+				OBJ_365 /* SatisfyAnyOf.swift in Sources */,
+				OBJ_366 /* ThrowAssertion.swift in Sources */,
+				OBJ_367 /* ThrowError.swift in Sources */,
+				OBJ_368 /* ToSucceed.swift in Sources */,
+				OBJ_369 /* Await.swift in Sources */,
+				OBJ_370 /* Errors.swift in Sources */,
+				OBJ_371 /* Functional.swift in Sources */,
+				OBJ_372 /* SourceLocation.swift in Sources */,
+				OBJ_373 /* Stringers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_391 /* CwlCatchException.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_399 /* CwlCatchException.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_405 /* CwlMachBadInstructionHandler.m in Sources */,
+				OBJ_406 /* mach_excServer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_412 /* CwlBadInstructionException.swift in Sources */,
+				OBJ_413 /* CwlCatchBadInstruction.swift in Sources */,
+				OBJ_414 /* CwlDarwinDefinitions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_427 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_433 /* Behavior.swift in Sources */,
+				OBJ_434 /* Callsite.swift in Sources */,
+				OBJ_435 /* Configuration.swift in Sources */,
+				OBJ_436 /* QuickConfiguration.swift in Sources */,
+				OBJ_437 /* DSL.swift in Sources */,
+				OBJ_438 /* World+DSL.swift in Sources */,
+				OBJ_439 /* ErrorUtility.swift in Sources */,
+				OBJ_440 /* Example.swift in Sources */,
+				OBJ_441 /* ExampleGroup.swift in Sources */,
+				OBJ_442 /* ExampleMetadata.swift in Sources */,
+				OBJ_443 /* Filter.swift in Sources */,
+				OBJ_444 /* Closures.swift in Sources */,
+				OBJ_445 /* ExampleHooks.swift in Sources */,
+				OBJ_446 /* HooksPhase.swift in Sources */,
+				OBJ_447 /* SuiteHooks.swift in Sources */,
+				OBJ_448 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				OBJ_449 /* QuickMain.swift in Sources */,
+				OBJ_450 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				OBJ_451 /* QuickSpec.swift in Sources */,
+				OBJ_452 /* QuickTestObservation.swift in Sources */,
+				OBJ_453 /* QuickTestSuite.swift in Sources */,
+				OBJ_454 /* String+C99ExtendedIdentifier.swift in Sources */,
+				OBJ_455 /* URL+FileName.swift in Sources */,
+				OBJ_456 /* World.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_465 /* QuickSpecBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_472 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_478 /* PDFExternalDocument.swift in Sources */,
+				OBJ_479 /* PDFBezierPath+Copying.swift in Sources */,
+				OBJ_480 /* PDFBezierPath.swift in Sources */,
+				OBJ_481 /* PDFBezierPathVertex.swift in Sources */,
+				OBJ_482 /* PDFDynamicGeometryShape.swift in Sources */,
+				OBJ_483 /* PDFLineStyle+Equatable.swift in Sources */,
+				OBJ_484 /* PDFLineStyle.swift in Sources */,
+				OBJ_485 /* PDFLineType.swift in Sources */,
+				OBJ_486 /* PDFGroup+Objects.swift in Sources */,
+				OBJ_487 /* PDFGroup.swift in Sources */,
+				OBJ_488 /* PDFGroupContainer.swift in Sources */,
+				OBJ_489 /* PDFMasterGroup.swift in Sources */,
+				OBJ_490 /* PDFImage+Equatable.swift in Sources */,
+				OBJ_491 /* PDFImage.swift in Sources */,
+				OBJ_492 /* PDFImageOptions.swift in Sources */,
+				OBJ_493 /* PDFImageSizeFit.swift in Sources */,
+				OBJ_494 /* PDFContainer.swift in Sources */,
+				OBJ_495 /* PDFPageLayout.swift in Sources */,
+				OBJ_496 /* PDFList+Equatable.swift in Sources */,
+				OBJ_497 /* PDFList.swift in Sources */,
+				OBJ_498 /* PDFListItem+Equatable.swift in Sources */,
+				OBJ_499 /* PDFListItem.swift in Sources */,
+				OBJ_500 /* PDFListItemSymbol.swift in Sources */,
+				OBJ_501 /* PDFInfo+Equatable.swift in Sources */,
+				OBJ_502 /* PDFInfo.swift in Sources */,
+				OBJ_503 /* PDFDocument+Objects.swift in Sources */,
+				OBJ_504 /* PDFDocument.swift in Sources */,
+				OBJ_505 /* PDFGenerator+Generation.swift in Sources */,
+				OBJ_506 /* PDFGenerator.swift in Sources */,
+				OBJ_507 /* PDFGeneratorProtocol.swift in Sources */,
+				OBJ_508 /* PDFMultiDocumentGenerator.swift in Sources */,
+				OBJ_509 /* PDFPageFormat+Layout.swift in Sources */,
+				OBJ_510 /* PDFPageFormat+SizeConstants.swift in Sources */,
+				OBJ_511 /* PDFPageFormat.swift in Sources */,
+				OBJ_512 /* PDFSection.swift in Sources */,
+				OBJ_513 /* PDFSectionColumn+Objects.swift in Sources */,
+				OBJ_514 /* PDFSectionColumn.swift in Sources */,
+				OBJ_515 /* PDFTableOfContent.swift in Sources */,
+				OBJ_516 /* NSAttributedString+PDFTableContent.swift in Sources */,
+				OBJ_517 /* Number+PDFTableContentable.swift in Sources */,
+				OBJ_518 /* PDFTableContent+ContentType.swift in Sources */,
+				OBJ_519 /* PDFTableContent+Equatable.swift in Sources */,
+				OBJ_520 /* PDFTableContent.swift in Sources */,
+				OBJ_521 /* PDFTableContentable.swift in Sources */,
+				OBJ_522 /* String+PDFTableContent.swift in Sources */,
+				OBJ_523 /* UIImage+PDFTableContent.swift in Sources */,
+				OBJ_524 /* PDFTable+Equatable.swift in Sources */,
+				OBJ_525 /* PDFTable.swift in Sources */,
+				OBJ_526 /* PDFTableCell.swift in Sources */,
+				OBJ_527 /* PDFTableCellAlignment.swift in Sources */,
+				OBJ_528 /* PDFTableCellPosition.swift in Sources */,
+				OBJ_529 /* PDFTable+CellSubscripts.swift in Sources */,
+				OBJ_530 /* PDFTable+ColumnSubscripts.swift in Sources */,
+				OBJ_531 /* PDFTable+RowSubscripts.swift in Sources */,
+				OBJ_532 /* PDFTable+SectionSubscripts.swift in Sources */,
+				OBJ_533 /* PDFTableColumn.swift in Sources */,
+				OBJ_534 /* PDFTableColumns.swift in Sources */,
+				OBJ_535 /* PDFTableMergeable.swift in Sources */,
+				OBJ_536 /* PDFTableRow.swift in Sources */,
+				OBJ_537 /* PDFTableRows.swift in Sources */,
+				OBJ_538 /* PDFTableSection.swift in Sources */,
+				OBJ_539 /* PDFTableCell+Equatable.swift in Sources */,
+				OBJ_540 /* PDFTableCellBorders+Equatable.swift in Sources */,
+				OBJ_541 /* PDFTableCellBorders.swift in Sources */,
+				OBJ_542 /* PDFTableCellPosition+Equatable-Hashable.swift in Sources */,
+				OBJ_543 /* PDFTableCellStyle+Equatable.swift in Sources */,
+				OBJ_544 /* PDFTableCellStyle.swift in Sources */,
+				OBJ_545 /* PDFTableStyle+Defaults.swift in Sources */,
+				OBJ_546 /* PDFTableStyle+Equatable.swift in Sources */,
+				OBJ_547 /* PDFTableStyle.swift in Sources */,
+				OBJ_548 /* PDFAttributedText+Equatable.swift in Sources */,
+				OBJ_549 /* PDFAttributedText.swift in Sources */,
+				OBJ_550 /* PDFSimpleText+Equatable.swift in Sources */,
+				OBJ_551 /* PDFSimpleText.swift in Sources */,
+				OBJ_552 /* PDFText.swift in Sources */,
+				OBJ_553 /* PDFTextStyle.swift in Sources */,
+				OBJ_554 /* CrossPlattformGraphics.swift in Sources */,
+				OBJ_555 /* PDFCopy.swift in Sources */,
+				OBJ_556 /* PDFDocumentObject.swift in Sources */,
+				OBJ_557 /* PDFError.swift in Sources */,
+				OBJ_558 /* PDFRenderObject.swift in Sources */,
+				OBJ_559 /* PDFExternalDocumentObject.swift in Sources */,
+				OBJ_560 /* PDFExternalPageObject.swift in Sources */,
+				OBJ_561 /* PDFContextGraphics.swift in Sources */,
+				OBJ_562 /* PDFGraphics.swift in Sources */,
+				OBJ_563 /* PDFLineObject.swift in Sources */,
+				OBJ_564 /* PDFLineSeparatorObject+Equatable.swift in Sources */,
+				OBJ_565 /* PDFLineSeparatorObject.swift in Sources */,
+				OBJ_566 /* PDFRectangleObject.swift in Sources */,
+				OBJ_567 /* UIColor+CloseToEqual.swift in Sources */,
+				OBJ_568 /* UIColor+Hex.swift in Sources */,
+				OBJ_569 /* UIImage+Pixel.swift in Sources */,
+				OBJ_570 /* PDFGroupObject.swift in Sources */,
+				OBJ_571 /* PDFImageObject.swift in Sources */,
+				OBJ_572 /* PDFImageRowObject.swift in Sources */,
+				OBJ_573 /* PDFColumnLayoutState.swift in Sources */,
+				OBJ_574 /* PDFIndentationObject+Equatable.swift in Sources */,
+				OBJ_575 /* PDFIndentationObject.swift in Sources */,
+				OBJ_576 /* PDFLayout+Equatable.swift in Sources */,
+				OBJ_577 /* PDFLayout.swift in Sources */,
+				OBJ_578 /* PDFLayoutHeights+Equatable.swift in Sources */,
+				OBJ_579 /* PDFLayoutHeights.swift in Sources */,
+				OBJ_580 /* PDFLayoutIndentations+Equatable.swift in Sources */,
+				OBJ_581 /* PDFLayoutIndentations.swift in Sources */,
+				OBJ_582 /* PDFMarginObject.swift in Sources */,
+				OBJ_583 /* PDFOffsetObject+Equatable.swift in Sources */,
+				OBJ_584 /* PDFOffsetObject.swift in Sources */,
+				OBJ_585 /* PDFPageBreakObject+Equatable.swift in Sources */,
+				OBJ_586 /* PDFPageBreakObject.swift in Sources */,
+				OBJ_587 /* PDFPageLayout+Equatable.swift in Sources */,
+				OBJ_588 /* PDFSectionColumnContainer.swift in Sources */,
+				OBJ_589 /* PDFSpaceObject.swift in Sources */,
+				OBJ_590 /* PDFListObject.swift in Sources */,
+				OBJ_591 /* CGPoint+Math.swift in Sources */,
+				OBJ_592 /* CGPoint+Null.swift in Sources */,
+				OBJ_593 /* PDFGenerator+Debug.swift in Sources */,
+				OBJ_594 /* PDFGenerator+Layout.swift in Sources */,
+				OBJ_595 /* Int+RomanNumerals.swift in Sources */,
+				OBJ_596 /* PDFPagination+Equatable.swift in Sources */,
+				OBJ_597 /* PDFPagination.swift in Sources */,
+				OBJ_598 /* PDFPaginationClosure.swift in Sources */,
+				OBJ_599 /* PDFPaginationStyle+Equatable.swift in Sources */,
+				OBJ_600 /* PDFPaginationStyle.swift in Sources */,
+				OBJ_601 /* PDFColumnWrapSectionObject.swift in Sources */,
+				OBJ_602 /* PDFSectionColumnObject.swift in Sources */,
+				OBJ_603 /* PDFSectionObject.swift in Sources */,
+				OBJ_604 /* PDFTableOfContentObject.swift in Sources */,
+				OBJ_605 /* PDFTableMergeUtil.swift in Sources */,
+				OBJ_606 /* PDFTableNode.swift in Sources */,
+				OBJ_607 /* PDFTableObject.swift in Sources */,
+				OBJ_608 /* PDFTableValidator.swift in Sources */,
+				OBJ_609 /* PDFAttributedTextObject.swift in Sources */,
+				OBJ_610 /* PDFFontObject.swift in Sources */,
+				OBJ_611 /* PDFTextColorObject.swift in Sources */,
+				OBJ_612 /* PDFAttributableObject.swift in Sources */,
+				OBJ_613 /* PDFObjectAttribute.swift in Sources */,
+				OBJ_614 /* CustomStringConvertible+AutoDescribing.swift in Sources */,
+				OBJ_615 /* FileManager+TemporaryFiles.swift in Sources */,
+				OBJ_616 /* PDFCalculations.swift in Sources */,
+				OBJ_617 /* PDFLocatedRenderObject.swift in Sources */,
+				OBJ_618 /* PDFSlicedObject.swift in Sources */,
+				OBJ_619 /* Stack.swift in Sources */,
+				OBJ_620 /* WeakRef.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_627 /* PDFAsyncGenerator+Combine.swift in Sources */,
+				OBJ_628 /* PDFAsyncGenerator+Dispatch.swift in Sources */,
+				OBJ_629 /* PDFAsyncGenerator.swift in Sources */,
+				OBJ_630 /* PDFAsyncMultiDocumentGenerator+Combine.swift in Sources */,
+				OBJ_631 /* PDFAsyncMultiDocumentGenerator+Dispatch.swift in Sources */,
+				OBJ_632 /* PDFAsyncMultiDocumentGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_641 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_652 /* TPPDFAsyncTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_677 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
+			targetProxy = D4BDCCB224AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
+			targetProxy = D4BDCCB724AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = D4BDCCB824AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
+			targetProxy = D4BDCCB924AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = D4BDCCB424AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
+			targetProxy = D4BDCCB324AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = D4BDCCB524AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
+			targetProxy = D4BDCCB624AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
+			targetProxy = D4BDCCBF24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TPPDF::TPPDF" /* TPPDF */;
+			targetProxy = D4BDCCB024AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TPPDFAsync::TPPDFAsyncTests" /* TPPDFAsyncTests */;
+			targetProxy = D4BDCCC324AE283E000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::Nimble" /* Nimble */;
+			targetProxy = D4BDCCB124AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
+			targetProxy = D4BDCCBA24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
+			targetProxy = D4BDCCBB24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = D4BDCCBC24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
+			targetProxy = D4BDCCBD24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Quick::Quick" /* Quick */;
+			targetProxy = D4BDCCBE24AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
+			targetProxy = D4BDCCC024AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TPPDFAsync::TPPDFAsync" /* TPPDFAsync */;
+			targetProxy = D4BDCCC124AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+		OBJ_671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TPPDF::TPPDF" /* TPPDF */;
+			targetProxy = D4BDCCC224AE283D000C6FC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/Nimble_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = Nimble;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Nimble;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/Nimble_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = Nimble;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Nimble;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlCatchException_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlCatchException;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = NimbleCwlCatchException;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlCatchException_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlCatchException;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = NimbleCwlCatchException;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlCatchExceptionSupport_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlCatchExceptionSupport;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = NimbleCwlCatchExceptionSupport;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlCatchExceptionSupport_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlCatchExceptionSupport;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = NimbleCwlCatchExceptionSupport;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlMachBadInstructionHandler_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlMachBadInstructionHandler;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = NimbleCwlMachBadInstructionHandler;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlMachBadInstructionHandler_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlMachBadInstructionHandler;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = NimbleCwlMachBadInstructionHandler;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlPreconditionTesting_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlPreconditionTesting;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = NimbleCwlPreconditionTesting;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/NimbleCwlPreconditionTesting_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = NimbleCwlPreconditionTesting;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = NimbleCwlPreconditionTesting;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/Quick_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = Quick;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Quick;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/Quick_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = Quick;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Quick;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/QuickObjCRuntime_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickObjCRuntime;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = QuickObjCRuntime;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/QuickObjCRuntime_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickObjCRuntime;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = QuickObjCRuntime;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDF_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TPPDF;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDF;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDF_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TPPDF;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDF;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDFAsync_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TPPDFAsync;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDFAsync;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDFAsync_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TPPDFAsync;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDFAsync;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDFAsyncTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDFAsyncTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
+					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
+					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
+					"$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
+				);
+				INFOPLIST_FILE = TPPDFAsync.xcodeproj/TPPDFAsyncTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/TPPDFAsync.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = TPPDFAsyncTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "TPPDFAsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_318 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_319 /* Debug */,
+				OBJ_320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_387 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_388 /* Debug */,
+				OBJ_389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_395 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_396 /* Debug */,
+				OBJ_397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_401 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_402 /* Debug */,
+				OBJ_403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_408 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_409 /* Debug */,
+				OBJ_410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_423 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_424 /* Debug */,
+				OBJ_425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_429 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_430 /* Debug */,
+				OBJ_431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_461 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_462 /* Debug */,
+				OBJ_463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_468 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_469 /* Debug */,
+				OBJ_470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_474 /* Build configuration list for PBXNativeTarget "TPPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_475 /* Debug */,
+				OBJ_476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_623 /* Build configuration list for PBXNativeTarget "TPPDFAsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_624 /* Debug */,
+				OBJ_625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_637 /* Build configuration list for PBXNativeTarget "TPPDFAsyncPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_638 /* Debug */,
+				OBJ_639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_643 /* Build configuration list for PBXAggregateTarget "TPPDFAsyncPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_644 /* Debug */,
+				OBJ_645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_648 /* Build configuration list for PBXNativeTarget "TPPDFAsyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_649 /* Debug */,
+				OBJ_650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_673 /* Build configuration list for PBXNativeTarget "TPPDFPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_674 /* Debug */,
+				OBJ_675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
