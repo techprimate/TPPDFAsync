@@ -1,0 +1,180 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Combine.swift",
+      "line": 8,
+      "symbol": "PDFAsyncGenerator.generateAsyncTask(to:info:workQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Combine.swift",
+      "line": 28,
+      "symbol": "PDFAsyncGenerator.generateDataAsyncTask(info:workQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Combine.swift",
+      "line": 47,
+      "symbol": "PDFAsyncGenerator.generateURLAsyncTask(filename:info:workQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Dispatch.swift",
+      "line": 7,
+      "symbol": "PDFAsyncGenerator.generateAsync(to:info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Dispatch.swift",
+      "line": 33,
+      "symbol": "PDFAsyncGenerator.generateDataAsync(info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator+Dispatch.swift",
+      "line": 59,
+      "symbol": "PDFAsyncGenerator.generateURLAsync(filename:info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 4,
+      "symbol": "PDFAsyncGenerator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 5,
+      "symbol": "PDFAsyncGenerator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 5,
+      "symbol": "PDFAsyncGenerator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 8,
+      "symbol": "PDFAsyncGenerator.init(document:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 12,
+      "symbol": "PDFAsyncGenerator.debug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncGenerator.swift",
+      "line": 21,
+      "symbol": "PDFAsyncGenerator.progress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Combine.swift",
+      "line": 8,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateAsyncTask(to:info:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Combine.swift",
+      "line": 23,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateDataAsyncTask(info:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Combine.swift",
+      "line": 38,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateURLAsyncTask(filename:info:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Dispatch.swift",
+      "line": 7,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateAsync(to:info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Dispatch.swift",
+      "line": 33,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateDataAsync(info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator+Dispatch.swift",
+      "line": 59,
+      "symbol": "PDFAsyncMultiDocumentGenerator.generateURLAsync(filename:info:workQueue:notifyQueue:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 4,
+      "symbol": "PDFAsyncMultiDocumentGenerator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 5,
+      "symbol": "PDFAsyncMultiDocumentGenerator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 5,
+      "symbol": "PDFAsyncMultiDocumentGenerator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 8,
+      "symbol": "PDFAsyncMultiDocumentGenerator.init(documents:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 12,
+      "symbol": "PDFAsyncMultiDocumentGenerator.debug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 21,
+      "symbol": "PDFAsyncMultiDocumentGenerator.progress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/TPPDFAsync/TPPDFAsync/Sources/TPPDFAsync/PDFAsyncMultiDocumentGenerator.swift",
+      "line": 25,
+      "symbol": "PDFAsyncMultiDocumentGenerator.progresses",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/TPPDFAsync/TPPDFAsync"
+}

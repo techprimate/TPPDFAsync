@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TPPDFAsync  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="TPPDFAsync  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          TPPDFAsync 0.0.1 Docs
+        </a>
+         (0% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://www.github.com/techprimate/TPPDFAsync">
+            <img class="header-icon" src="img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">TPPDFAsync Reference</a>
+      <img class="carat" src="img/carat.png" alt=""/>
+      TPPDFAsync  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PDFAsyncGenerator.html">PDFAsyncGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PDFAsyncMultiDocumentGenerator.html">PDFAsyncMultiDocumentGenerator</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='tppdfasync' class='heading'>TPPDFAsync</h1>
+
+<p>TPPDFAsync is an extension to the TPPDF framework that adds asynchronous capabilities using Combine. It allows you to generate PDF documents asynchronously by leveraging the power of Combine framework in iOS applications.</p>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li>Asynchronous PDF generation: Generate PDF documents without blocking the main thread by using Combine publishers and subscribers.</li>
+<li>Seamless integration: TPPDFAsync extends the existing TPPDF framework, allowing you to leverage all the features and customization options provided by TPPDF.</li>
+<li>Combine-powered: Utilizes the Combine framework, enabling you to handle PDF generation tasks in a reactive and declarative manner.</li>
+<li>Flexible and customizable: TPPDFAsync works with the existing TPPDF API, providing you with a familiar and intuitive way to generate PDFs with custom styling, layout, and content.</li>
+</ul>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 13.0+</li>
+<li>Swift 5.0+</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p>TPPDFAsync can be easily integrated into your iOS project using Swift Package Manager. Simply add TPPDFAsync as a dependency in your Package.swift file:</p>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/techprimat/TPPDFAsync"</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="s">"0.0.1"</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+
+<p>Alternatively, you can also use CocoaPods by adding the following line to your <code>Podfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'TPPDFAsync'</span><span class="p">,</span> <span class="s1">'~&gt; 0.0.1'</span>
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>Using TPPDFAsync is straightforward. Follow these steps to generate a PDF asynchronously:</p>
+
+<ol>
+<li>Import the TPPDF and TPPDFAsync modules in your Swift file:</li>
+</ol>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">TPPDF</span>
+<span class="kd">import</span> <span class="kt">TPPDFAsync</span>
+</code></pre>
+
+<ol>
+<li>Create an instance of <code>PDFDocument</code> as you would with TPPDF:</li>
+</ol>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">document</span> <span class="o">=</span> <span class="kt">PDFDocument</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span> <span class="o">.</span><span class="n">a4</span><span class="p">)</span>
+</code></pre>
+
+<ol>
+<li>Configure the document and add content using the TPPDF API:</li>
+</ol>
+<pre class="highlight swift"><code><span class="n">document</span><span class="o">.</span><span class="nf">add</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="s">"Hello, TPPDFAsync!"</span><span class="p">)</span>
+<span class="n">document</span><span class="o">.</span><span class="nf">add</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"exampleImage"</span><span class="p">))</span>
+<span class="c1">// Customize layout, styling, headers, footers, etc.</span>
+</code></pre>
+
+<ol>
+<li>Create a <code><a href="Classes/PDFAsyncGenerator.html">PDFAsyncGenerator</a></code> and use the <code>generateAsyncTask()</code> method to generate the PDF asynchronously:</li>
+</ol>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">generator</span> <span class="o">=</span> <span class="kt">PDFAsyncGenerator</span><span class="p">(</span><span class="nv">document</span><span class="p">:</span> <span class="n">document</span><span class="p">)</span>
+<span class="n">generator</span><span class="o">.</span><span class="nf">generateURLAsyncTask</span><span class="p">(</span><span class="nv">filename</span><span class="p">:</span> <span class="s">"document.pdf"</span><span class="p">)</span>
+    <span class="o">.</span><span class="nf">sink</span><span class="p">(</span><span class="nv">receiveCompletion</span><span class="p">:</span> <span class="p">{</span> <span class="n">completion</span> <span class="k">in</span>
+        <span class="k">switch</span> <span class="n">completion</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">finished</span><span class="p">:</span>
+            <span class="c1">// PDF generation completed successfully</span>
+            <span class="k">break</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+            <span class="c1">// Handle any errors that occurred during PDF generation</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"PDF generation failed: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">},</span> <span class="nv">receiveValue</span><span class="p">:</span> <span class="p">{</span> <span class="n">url</span> <span class="k">in</span>
+        <span class="c1">// Handle the generated PDF file URL</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"PDF generated successfully: </span><span class="se">\(</span><span class="n">url</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="p">})</span>
+    <span class="o">.</span><span class="nf">store</span><span class="p">(</span><span class="nv">in</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
+</code></pre>
+
+<p>For more detailed usage instructions, refer to the <a href="https://github.com/techprimate/TPPDF">TPPDF documentation</a>.</p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>TPPDFAsync is released under the MIT License. See the <a href="https://github.com/techprimate/TPPDFAsync/blob/main/LICENSE">LICENSE</a> file for more information.</p>
+<h2 id='contributing' class='heading'>Contributing</h2>
+
+<p>Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.</p>
+<h2 id='acknowledgements' class='heading'>Acknowledgements</h2>
+
+<p>TPPDFAsync is built upon the foundation of the TPPDF framework. Many thanks to the TPPDF contributors for their efforts in creating and maintaining the core library.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2023 <a class="link" href="https://techprimate.com" target="_blank" rel="external noopener">techprimate GmbH</a>. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
