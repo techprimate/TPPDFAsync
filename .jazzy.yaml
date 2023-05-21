@@ -1,0 +1,14 @@
+module: TPPDFAsync
+
+author: techprimate GmbH
+author_url: https://www.github.com/techprimate
+github_url: https://www.github.com/techprimate/TPPDFAsync
+copyright: "© 2023 [techprimate GmbH](https://techprimate.com). All rights reserved."
+
+theme: fullwidth
+
+separate_global_declarations: true
+use_safe_filenames: true
+
+swift_build_tool: spm
+include: Sources/**
