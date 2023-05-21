@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/techprimate/TPPDF", from: "2.4.1"),
         //dev .package(url: "https://github.com/Quick/Quick", from: "7.0.0"),
-        //dev .package(url: "https://github.com/Quick/Nimble",  from: "12.0.0")
+        //dev .package(url: "https://github.com/Quick/Nimble",  from: "12.0.0"),
         //dev .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.50.4"),
     ],
     targets: [
