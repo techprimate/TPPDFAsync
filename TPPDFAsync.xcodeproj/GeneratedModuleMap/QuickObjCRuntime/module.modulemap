@@ -1,4 +1,0 @@
-module QuickObjCRuntime {
-    umbrella "/Volumes/Developer/TPPDFAsync/.build/checkouts/Quick/Sources/QuickObjCRuntime/include"
-    export *
-}
