@@ -18,4 +18,3 @@ class ExampleDocument {
         return document
     }
 }
-

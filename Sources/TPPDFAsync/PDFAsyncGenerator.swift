@@ -9,13 +9,13 @@ public class PDFAsyncGenerator {
     public init(document: PDFDocument) {
         self.generator = PDFGenerator(document: document)
     }
-    
+
     public var debug: Bool {
-        set {
-            generator.debug = newValue
-        }
         get {
             generator.debug
+        }
+        set {
+            generator.debug = newValue
         }
     }
 

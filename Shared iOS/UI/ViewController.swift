@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         formatter.numberStyle = .percent
         return formatter
     }()
-    
+
     @IBOutlet weak var progressContainer: UIStackView!
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var progressLabel: UILabel!
@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     var progressObserver: NSObjectProtocol!
 
     var pdfView: PDFView {
+        // swiftlint:disable:next force_cast
         self.view as! PDFView
     }
     var workCancellable: AnyCancellable?
@@ -53,7 +54,7 @@ class ViewController: UIViewController {
                 self.progressLabel.text = percentage
             }
         }
-        
+
         // Running task asynchronously
         self.workCancellable = generator.generateDataAsyncTask()
             .receive(on: DispatchQueue.main)

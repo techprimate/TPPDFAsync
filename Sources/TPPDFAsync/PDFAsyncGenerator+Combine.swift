@@ -6,7 +6,11 @@ public extension PDFAsyncGenerator {
 
     // MARK: - Combine Tasks
 
-    func generateAsyncTask(to url: URL, info: PDFInfo? = nil, workQueue: DispatchQueue = .global(qos: .background)) -> Future<Void, Error> {
+    func generateAsyncTask(
+        to url: URL,
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background)
+    ) -> Future<Void, Error> {
         Future<Void, Error> { [weak self] promise in
             workQueue.async {
                 guard let strongSelf = self else {
@@ -22,7 +26,10 @@ public extension PDFAsyncGenerator {
         }
     }
 
-    func generateDataAsyncTask(info: PDFInfo? = nil, workQueue: DispatchQueue = .global(qos: .background)) -> Future<Data, Error> {
+    func generateDataAsyncTask(
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background)
+    ) -> Future<Data, Error> {
         Future<Data, Error> { [weak self] promise in
             workQueue.async {
                 guard let strongSelf = self else {
@@ -38,7 +45,11 @@ public extension PDFAsyncGenerator {
         }
     }
 
-    func generateURLAsyncTask(filename: String, info: PDFInfo? = nil, workQueue: DispatchQueue = .global(qos: .background)) -> Future<URL, Error> {
+    func generateURLAsyncTask(
+        filename: String,
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background)
+    ) -> Future<URL, Error> {
         Future<URL, Error> { [weak self] promise in
             workQueue.async {
                 guard let strongSelf = self else {
