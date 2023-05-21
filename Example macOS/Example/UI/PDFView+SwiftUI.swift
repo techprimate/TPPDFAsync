@@ -3,7 +3,7 @@
 //  Example
 //
 //  Created by Philip Niedertscheider on 23.06.20.
-//  Copyright © 2020 techprimate GmbH & Co. KG. All rights reserved.
+//  Copyright © 2023 techprimate GmbH. All rights reserved.
 //
 
 import PDFKit

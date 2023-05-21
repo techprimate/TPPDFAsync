@@ -3,7 +3,7 @@
 //  TPPDFAsync
 //
 //  Created by Philip Niedertscheider on 02.07.20.
-//  Copyright © 2020 techprimate GmbH & Co. KG. All rights reserved.
+//  Copyright © 2023 techprimate GmbH. All rights reserved.
 //
 
 import UIKit
