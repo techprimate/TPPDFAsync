@@ -49,11 +49,11 @@ let document = PDFDocument(format: .a4)
 
 3. Configure the document and add content using the TPPDF API:
 
-````swift
+```swift
 document.add(text: "Hello, TPPDFAsync!")
 document.add(image: UIImage(named: "exampleImage"))
 // Customize layout, styling, headers, footers, etc.
-``
+```
 
 4. Create a `PDFAsyncGenerator` and use the `generateAsyncTask()` method to generate the PDF asynchronously:
 
@@ -76,10 +76,7 @@ generator.generateURLAsyncTask(filename: "document.pdf")
     .store(in: &cancellables)
 ```
 
-5. Don't forget to keep a reference to the `AnyCancellable` object returned by `sink()` to cancel the PDF generation if needed.
-
 For more detailed usage instructions, refer to the [TPPDF documentation](https://github.com/techprimate/TPPDF).
-````
 
 ## License
 
