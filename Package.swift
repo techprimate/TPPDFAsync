@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -12,18 +12,18 @@ let package = Package(
         .library(name: "TPPDFAsync", targets: ["TPPDFAsync"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/techprimate/TPPDF", .upToNextMajor(from: "2.4.1")),
-        .package(url: "https://github.com/Quick/Quick", .upToNextMajor(from: "v7.0.0")),
-        .package(url: "https://github.com/Quick/Nimble",  .upToNextMajor(from: "v12.0.0")),
+        .package(url: "https://github.com/techprimate/TPPDF", from: "2.4.1"),
+        //dev .package(url: "https://github.com/Quick/Quick", from: "7.0.0"),
+        //dev .package(url: "https://github.com/Quick/Nimble",  from: "12.0.0")
     ],
     targets: [
         .target(name: "TPPDFAsync", dependencies: [
             "TPPDF"
         ], path: "Sources"),
-        .testTarget(name: "TPPDFAsyncTests", dependencies: [
-            "TPPDFAsync",
-            "Quick",
-            "Nimble"
-        ]),
+        //dev .testTarget(name: "TPPDFAsyncTests", dependencies: [
+        //dev     "TPPDFAsync",
+        //dev     "Quick",
+        //dev     "Nimble"
+        //dev ]),
     ]
 )

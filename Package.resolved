@@ -1,34 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Nimble",
-        "repositoryURL": "https://github.com/Quick/Nimble",
-        "state": {
-          "branch": null,
-          "revision": "2b1809051b4a65c1d7f5233331daa24572cd7fca",
-          "version": "8.1.1"
-        }
-      },
-      {
-        "package": "Quick",
-        "repositoryURL": "https://github.com/Quick/Quick",
-        "state": {
-          "branch": null,
-          "revision": "09b3becb37cb2163919a3842a4c5fa6ec7130792",
-          "version": "2.2.1"
-        }
-      },
-      {
-        "package": "TPPDF",
-        "repositoryURL": "https://github.com/techprimate/TPPDF",
-        "state": {
-          "branch": null,
-          "revision": "6324f644b3f95981074680c621b36d2fa29f51e7",
-          "version": "2.2.0"
-        }
+  "pins" : [
+    {
+      "identity" : "tppdf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/techprimate/TPPDF",
+      "state" : {
+        "revision" : "1955ebbc090a3fb2149fb53e703595c3146689af",
+        "version" : "2.4.1"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

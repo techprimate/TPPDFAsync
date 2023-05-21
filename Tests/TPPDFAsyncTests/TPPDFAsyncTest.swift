@@ -12,7 +12,7 @@ import Nimble
 
 class TPPDFAsyncTest: QuickSpec {
 
-    override func spec() {
+    override class func spec() {
         expect(true).to(beTruthy())
     }
 }
