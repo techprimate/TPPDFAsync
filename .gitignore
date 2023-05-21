@@ -58,3 +58,7 @@ Example*/Pods/Swiftlint
 # Xcode Schemes, so Carthage doesn't complain
 !Example iOS/TPPDFAsync.xcodeproj/xcsharedata/xcschemes/TPPDFAsync.xcscheme
 !Example iOS/TPPDFAsync.xcodeproj/xcsharedata/xcschemes/TPPDFAsync-Example.xcscheme
+
+# Ruby
+vendor
+.bundle
