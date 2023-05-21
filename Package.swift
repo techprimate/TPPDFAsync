@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(name: "TPPDFAsync", dependencies: [
             "TPPDF"
-        ], path: "Sources"),
+        ]),
         //dev .testTarget(name: "TPPDFAsyncTests", dependencies: [
         //dev     "TPPDFAsync",
         //dev     "Quick",

@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/techprimate/TPPDFAsync'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Philip Niedertscheider' => 'dev@philpri.me' }
+  s.author           = { 'Philip Niedertscheider' => 'phil@techprimate.com' }
   s.source           = { :git => 'https://github.com/techprimate/TPPDFAsync.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/techprimate'
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/TPPDFAsync/**/*'
   s.framework = "Combine"
   s.dependency 'TPPDF'
   s.swift_version = '5.2'
