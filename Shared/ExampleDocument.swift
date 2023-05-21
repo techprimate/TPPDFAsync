@@ -9,10 +9,9 @@
 import TPPDF
 
 class ExampleDocument {
-
     static func create() -> PDFDocument {
         let document = PDFDocument(format: .a4)
-        for _ in 0...1_000 {
+        for _ in 0 ... 1_000 {
             document.add(.contentCenter, text: "Hello Async World!")
         }
         return document

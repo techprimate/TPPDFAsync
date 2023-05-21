@@ -1,9 +1,8 @@
+import Combine
 import Foundation
 import TPPDF
-import Combine
 
 public extension PDFAsyncMultiDocumentGenerator {
-
     // MARK: - Combine Tasks
 
     func generateAsyncTask(to url: URL, info: PDFInfo? = nil) -> Future<Void, Error> {

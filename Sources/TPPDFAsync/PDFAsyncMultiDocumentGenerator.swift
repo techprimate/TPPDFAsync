@@ -1,13 +1,12 @@
+import Combine
 import Foundation
 import TPPDF
-import Combine
 
 public class PDFAsyncMultiDocumentGenerator {
-
     internal let generator: PDFMultiDocumentGenerator
 
     public init(documents: [PDFDocument]) {
-        self.generator = PDFMultiDocumentGenerator(documents: documents)
+        generator = PDFMultiDocumentGenerator(documents: documents)
     }
 
     public var debug: Bool {

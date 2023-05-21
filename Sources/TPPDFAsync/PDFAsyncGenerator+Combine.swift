@@ -1,9 +1,8 @@
+import Combine
 import Foundation
 import TPPDF
-import Combine
 
 public extension PDFAsyncGenerator {
-
     // MARK: - Combine Tasks
 
     func generateAsyncTask(

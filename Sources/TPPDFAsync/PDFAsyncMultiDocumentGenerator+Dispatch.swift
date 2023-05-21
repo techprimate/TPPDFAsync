@@ -2,17 +2,18 @@ import Foundation
 import TPPDF
 
 public extension PDFAsyncMultiDocumentGenerator {
-
     // MARK: - Closure Completion Handlers
 
-    func generateAsync(to url: URL,
-                       info: PDFInfo? = nil,
-                       workQueue: DispatchQueue = .global(qos: .background),
-                       notifyQueue: DispatchQueue = .main,
-                       completion: @escaping (Error?) -> Void) {
+    func generateAsync(
+        to url: URL,
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background),
+        notifyQueue: DispatchQueue = .main,
+        completion: @escaping (Error?) -> Void
+    ) {
         let dispatchGroup = DispatchGroup()
         var failureError: Error?
-        workQueue.async { [ weak self ] in
+        workQueue.async { [weak self] in
             guard let strongSelf = self else {
                 return
             }
@@ -29,14 +30,16 @@ public extension PDFAsyncMultiDocumentGenerator {
         }
     }
 
-    func generateDataAsync(info: PDFInfo? = nil,
-                           workQueue: DispatchQueue = .global(qos: .background),
-                           notifyQueue: DispatchQueue = .main,
-                           completion: @escaping (Data?, Error?) -> Void) {
+    func generateDataAsync(
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background),
+        notifyQueue: DispatchQueue = .main,
+        completion: @escaping (Data?, Error?) -> Void
+    ) {
         let dispatchGroup = DispatchGroup()
         var resultData: Data?
         var failureError: Error?
-        workQueue.async { [ weak self ] in
+        workQueue.async { [weak self] in
             guard let strongSelf = self else {
                 return
             }
@@ -53,15 +56,17 @@ public extension PDFAsyncMultiDocumentGenerator {
         }
     }
 
-    func generateURLAsync(filename: String,
-                          info: PDFInfo? = nil,
-                          workQueue: DispatchQueue = .global(qos: .background),
-                          notifyQueue: DispatchQueue = .main,
-                          completion: @escaping (URL?, Error?) -> Void) {
+    func generateURLAsync(
+        filename: String,
+        info: PDFInfo? = nil,
+        workQueue: DispatchQueue = .global(qos: .background),
+        notifyQueue: DispatchQueue = .main,
+        completion: @escaping (URL?, Error?) -> Void
+    ) {
         let dispatchGroup = DispatchGroup()
         var resultURL: URL?
         var failureError: Error?
-        workQueue.async { [ weak self ] in
+        workQueue.async { [weak self] in
             guard let strongSelf = self else {
                 return
             }
