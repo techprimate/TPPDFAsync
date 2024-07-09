@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "TPPDFAsync", targets: ["TPPDFAsync"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/techprimate/TPPDF", from: "2.4.1"),
+        .package(url: "https://github.com/techprimate/TPPDF", from: "2.6.0"),
         //dev .package(url: "https://github.com/Quick/Quick", from: "7.0.0"),
         //dev .package(url: "https://github.com/Quick/Nimble",  from: "12.0.0"),
         //dev .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.50.4"),
